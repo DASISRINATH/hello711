@@ -1,0 +1,34 @@
+{
+    "hyderabad": "హైదరాబాద్",
+    "bangalore": "బెంగళూరు",
+    "chennai": "చెన్నై",
+    "options": {
+        "buy": "కొను",
+        "rent": "అద్దె",
+        "blog": "బ్లాగ్",
+        "download_app": "అనువర్తనాన్ని డౌన్‌లోడ్ చేయండి"
+    },
+    "english": "ఇంగ్లీష్",
+    "kannada": "కన్నడ",
+    "hindi": "కాదు",
+    "listing": {
+        "sell": "అమ్మండి",
+        "land_plot": "ల్యాండ్/ప్లాట్",
+        "apartments": "అపార్టుమెంట్లు",
+        "house_villa": "హౌస్/విల్లా",
+        "rent": "అద్దె",
+        "house_apartments": "ఇల్లు/అపార్టుమెంట్లు",
+        "commercial": "వాణిజ్య",
+        "residential_land": "నివాస భూమి",
+        "agricultural_land": "వ్యవసాయ భూమి",
+        "commercial_land": "వాణిజ్య భూమి",
+        "industrial_land": "పారిశ్రామిక భూమి",
+        "residential": "నివాస",
+        "add_property": "ఆస్తిని జోడించండి"
+    },
+    "profile": {
+        "myprofile": "నా ప్రొఫైల్",
+        "mylistings": "నా జాబితాలు",
+        "logout": "లాగ్అవుట్"
+    }
+}

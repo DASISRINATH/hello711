@@ -1,0 +1,16 @@
+@media only screen and (max-width: 430px) {
+    /* ========== Footer-middle start ========== */
+    .footer-middle .row .col-lg-2 {
+        width: 111px;
+    }
+    /* ========== Footer-middle End ========== */
+
+    /* ========== Footer-bottom ========== */
+    .col-lg-5 > ul {
+        flex-direction: row;
+        justify-content: center;
+      }
+    .col-lg-5 > ul > li {
+        align-self: baseline;
+    }
+}

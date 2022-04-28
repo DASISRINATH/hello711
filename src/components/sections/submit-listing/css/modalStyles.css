@@ -1,0 +1,50 @@
+.mapModalOverlay {
+  padding: 0 !important;
+  width: 400px;
+  height: max-content;
+}
+
+.mapModalOverlay .react-responsive-modal-closeButton {
+  display: none;
+}
+
+.saveLocation,
+.closeLocation,
+.editLocation {
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.saveLocation,
+.editLocation {
+  background-color: #5FB8AE;
+  color: white;
+}
+
+.editLocation {
+  height: 44px;
+  padding: 6px 15px !important;
+}
+
+.closeLocation {
+  background-color: #ff5151;
+  color: white;
+}
+
+.modal-edit {
+  height: 44px;
+  font-size: 17px;
+  color: rgb(0, 225, 255);
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+  .modal-edit {
+    align-items: flex-start;
+  }
+}

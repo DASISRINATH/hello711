@@ -1,0 +1,92 @@
+.DropDownContainer {
+    max-width: 200px;
+    width: 100%;
+  position: relative;
+  height: 36px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid hsl(0,0%,80%);
+}
+
+.DropDownContainer:focus {
+    box-shadow: 0 0 0 1px #2684ff;    
+}
+
+.DropDownContainer:hover {
+    border: 1px solid hsl(0,0%,70%);
+}
+
+.DropDownHeader {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+  align-items: center;
+  border-radius: 4px;
+  padding-left: 7px;
+  height: 100%;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: black;
+  background: #ffffff;
+  position: relative;
+}
+
+
+
+.dropArrow {
+    position: absolute;
+    height: 100%;
+    background-color: white;
+    top: 50%;
+    right: 0;
+    z-index: 100;
+    transform: translateY(-50%);
+    color: rgb(204, 203, 203);
+}
+
+.dropArrow:hover {
+    color: #848486;
+}
+
+.DropDownListContainer {
+    position: absolute;
+    border-radius: 4px;
+    overflow: hidden;
+    width: max-content;
+    top: 110%;
+    left: 0;
+    /* transform: translateX(-50%); */
+    /* max-height: 200px;
+    overflow-y: auto; */
+    /* transform: translateX(50%); */
+    z-index: 2000;
+}
+
+.DropDownList {
+    padding: 4px 0;
+    width: 100%;
+    max-height: 500px;
+  margin: 0;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  color: #848486;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.ListItem {
+    list-style: none;
+  padding: 3px 5px 3px 7px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ListItem:hover {
+    background-color: rgb(0, 123, 255,0.1);
+}
+
+.dropBg {
+    background-color: #007bff !important;
+    color: white !important;
+}

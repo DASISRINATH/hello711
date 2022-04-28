@@ -1,0 +1,34 @@
+{
+    "hyderabad": "हैदराबाद",
+    "bangalore": "बैंगलोर",
+    "chennai": "चेन्नई",
+    "options": {
+        "buy": "खरीद",
+        "rent": "किराए",
+        "blog": "ब्लॉग",
+        "download_app": "ऐप डाउनलोड करें"
+    },
+    "english": "अंग्रेज़ी",
+    "kannada": "कन्नड़",
+    "hindi": "हिंदी",
+    "listing": {
+        "sell": "बेचना",
+        "land_plot": "भूमि का भाग",
+        "apartments": "अपार्टमेंट",
+        "house_villa": "घर/विला",
+        "rent": "किराए",
+        "house_apartments": "घर/अपार्टमेंट",
+        "commercial": "व्यावसायिक",
+        "residential_land": "आवासीय भूमि",
+        "agricultural_land": "कृषि भूमि",
+        "commercial_land": "कमर्शियल लैंड",
+        "industrial_land": "इंडस्ट्रियल लैंड",
+        "residential": "आवासीय",
+        "add_property": "संपत्ति जोड़ें"
+    },
+    "profile": {
+        "myprofile": "मेरी प्रोफाइल",
+        "mylistings": "मेरी लिस्टिंग",
+        "logout": "लॉग आउट"
+    }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "itm_loc0da9dce069f1f834f38f262ecc57ffd1",
+    "name": "Mancherial",
+    "lat": "18.871401",
+    "lng": "79.444298",
+    "state": "1",
+    "added_date": "2020-08-19 23:02:10",
+    "added_date_str": "8 months ago"
+  },
+  {
+    "id": "itm_loca7b66748e03d457e976ca63a50e1bde0",
+    "name": "Hyderabad",
+    "lat": "17.385000",
+    "lng": "78.486702",
+    "status": "1",
+    "added_date": "2019-06-06 16:39:05",
+    "added_date_str": "2 years ago"
+  },
+  {
+    "id": "itm_loc892e3dbe2fbf07ae7b19455a4e75b28c",
+    "name": "Karim Nagar",
+    "lat": "18.438601",
+    "lng": "79.128799",
+    "status": "1",
+    "added_date": "2019-06-06 16:38:44",
+    "added_date_str": "2 years ago"
+  },
+  {
+    "id": "itm_locc91e7fd5ffc739b26951228b0a564569",
+    "name": "Warangal",
+    "lat": "17.968901",
+    "lng": "79.594101",
+    "status": "1",
+    "added_date": "2019-06-06 16:34:36",
+    "added_date_str": "2 years ago"
+  },
+  {
+    "id": "itm_loc247387cc3640d1a88f3d9342d216dc13",
+    "name": "Chennai",
+    "lat": "13.082700",
+    "lng": "80.270699",
+    "status": "1",
+    "added_date": "2021-05-10 23:37:54",
+    "added_date_str": "3 days ago"
+},
+{
+    "id": "itm_loc32db8931aaf39e3dfb5c388799109d5b",
+    "name": "Bengaluru",
+    "lat": "12.971600",
+    "lng": "77.594597",
+    "status": "1",
+    "added_date": "2021-02-05 23:59:31",
+    "added_date_str": "3 months ago"
+}
+]

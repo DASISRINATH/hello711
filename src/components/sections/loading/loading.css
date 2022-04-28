@@ -1,0 +1,59 @@
+/*  loading style */
+.card {
+    position: relative;
+    -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+    border-radius: 6px;
+    height: 360px;
+    overflow: hidden;
+    max-width: 320px;
+    margin: 40px auto;
+  }
+  
+  .mz1 {
+    border-radius: 5px;
+    width: 100%;
+  }
+  .mzA {
+    height: 200px;
+  }
+  .mzB {
+    height: 25px;
+    margin-top: 10px;
+  }
+  .mzC {
+    height: 20px;
+    margin-top: 10px;
+    max-width: 250px;
+  }
+  .mzD {
+    height: 15px;
+    margin-top: 10px;
+    max-width: 200px;
+  }
+  
+  @keyframes fullView {
+    100% {
+      width: 100%;
+    }
+  }
+  
+  
+  .mshimmer {
+     animation : shimmer 2s infinite linear;
+     background: linear-gradient(to right, #bdbbbb 2%, #D6D6D6 30%, #bdbbbb 50%);
+      background-size: 1000px 100%;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+  
+  
+  /*  loading style End */

@@ -1,0 +1,102 @@
+.tabs-nav-div{
+    width: 100%;
+    margin-top: -70px;
+}
+
+.tabs-nav{
+    width: auto;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.tabs-nav-active {
+    border-bottom: 3px solid #c74646;
+}
+.profile-info-1{
+    font-size: 15px;
+    padding: 0px 5px 0px 5px;
+}
+
+.price-p1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 4px;
+    color: #c76262;
+}
+.title-p1{
+margin: 0 0 4px;
+font-family: 'Poppins', serif;
+font-weight: 700;
+line-height: 24px;
+color: #101737;
+}
+
+.desc-p1{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: #515151;   
+}
+
+@media screen and (max-width: 1025px) and (min-width: 768px) {
+    .profile-info-1{
+        font-size: 10px;
+        padding: 0px 2px 0px 2px;
+    }
+    .tabs-nav {
+        width: auto;
+        margin-left: 14px;
+        margin-right: 14px;
+        padding-bottom: 13px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .tabs-nav-div{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .icon-mobile-off{
+        display: none;
+    }
+    .tabs-nav{
+        width: auto;
+        margin-left: 9px;
+        margin-right: 9px;
+        padding-bottom: 2px;
+        font-size: 16px;
+    }
+    .tabs-nav-active {
+        border-bottom: 1.5px solid #c74646;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .tabs-nav-div{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .tabs-nav{
+        width: auto;
+        margin-left: 7px;
+        margin-right: 7px;
+        padding-bottom: 2px;
+        font-size: 14px;
+    }
+}
+
+/**************************************<Editprofile/> START******************************************/
+
+.Editprofile_arrow_spacing{
+    width: 100%;
+    border: none;
+    padding-top: 5px;
+    outline: none;
+    color: #6e6e6e;
+}
+
+/**************************************<Editprofile/> END******************************************/

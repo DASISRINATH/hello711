@@ -1,0 +1,39 @@
+{
+    "hyderabad": "हैदराबाद",
+    "bangalore": "बैंगलोर",
+    "chennai": "चेन्नई",
+    "all" : "सब",
+    "options": {
+        "plots": "भूखंड",
+        "residential": "आवासीय",
+        "agricultural": "कृषि",
+        "commercial": "वाणिज्यिक",
+        "industrial": "औद्योगिक",
+        "apartments": "अपार्टमेंट",
+        "house_villa": "हाउस/विला",
+        "building": "बिल्डिंग",
+        "others": "अन्य",
+        "new_listing": "नई लिस्टिंग",
+        "popular": "लोकप्रिय",
+        "priceLH": "कीमत निम्न से उच्च",
+        "PriceHL": "कीमत उच्च से निम्न",
+        "price": "कीमत",
+        "clear_search": "स्पष्ट खोज",
+        "housing_type": "आवास प्रकार"
+    },
+    "filter": {
+        "list": "सूची",
+        "map": "नक्शा"
+    },
+    "my_listing": "मेरी लिस्टिंग",
+    "favourites": "पसंदीदा",
+    "recommended": "सिफारिश की",
+    "load_more": "और लोड करें",
+    "loading": "लोड हो रहा है",
+    "map": {
+        "popular": "लोकप्रिय",
+        "upcoming": "आगामी",
+        "red_zones": "रेड जोन",
+        "highways": "राजमार्गों"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "hyderabad": "ಹೈದರಾಬಾದ್",
+    "bangalore": "ಬೆಂಗಳೂರು",
+    "chennai": "ಚೆನ್ನೈ",
+    "all" : "ಎಲ್ಲಾ",
+    "options": {
+        "plots": "ಪ್ಲಾಟ್ಗಳು",
+        "residential": "ವಸತಿ",
+        "agricultural": "ಕೃಷಿ",
+        "commercial": "ವಾಣಿಜ್ಯ",
+        "industrial": "ಕೈಗಾರಿಕಾ",
+        "apartments": "ಅಪಾರ್ಟ್ಮೆಂಟ್",
+        "house_villa": "ಹೌಸ್ / ವಿಲ್ಲಾ",
+        "building": "ಕಟ್ಟಡ",
+        "others": "ಇತರರು",
+        "new_listing": "ಹೊಸ ಪಟ್ಟಿ",
+        "popular": "ಜನಪ್ರಿಯ",
+        "priceLH": "ಬೆಲೆ ಕಡಿಮೆ ಮಟ್ಟದಿಂದ",
+        "PriceHL": "ಬೆಲೆ ಹೆಚ್ಚು ಕಡಿಮೆ",
+        "price": "ಬೆಲೆ",
+        "clear_search": "ಅಳಿಸಿಹಾಕು",
+        "housing_type": "ವಸತಿ ಪ್ರಕಾರ"
+    },
+    "filter": {
+        "list": "ಪಟ್ಟಿ",
+        "map": "ನಕ್ಷೆ"
+    },
+    "my_listing": "ನನ್ನ ಪಟ್ಟಿಗಳು",
+    "favourites": "ಮೆಚ್ಚಿನವುಗಳು",
+    "recommended": "ಸೂಚಿಸಲಾಗಿದೆ",
+    "load_more": "ಲೋಡ್ ಮಾಡಿ",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+    "map": {
+        "popular": "ಜನಪ್ರಿಯ",
+        "upcoming": "ಮುಂಬರುವ",
+        "red_zones": "ಕೆಂಪು ವಲಯಗಳು",
+        "highways": "ಹೆದ್ದಾರಿಗಳು"
+    }
+}

@@ -1,0 +1,49 @@
+/* Item Modal Box */
+
+/* .react-responsive-modal-modal {
+    padding: 0;
+    border-radius: 0;
+    width: 300px;
+}
+
+.react-responsive-modal-closeButton {
+    display: none;
+} */
+
+.modal_item_t1 {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black !important;
+    border-top: 0.5px solid #dbdbdb;
+    border-bottom: 0.5px solid #dbdbdb;
+}
+
+.modal_item_t2 {
+    padding: 5px 14px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black !important;
+    background-color: #f1f1f1;
+    border-top: 0.5px solid #dbdbdb;
+    border-bottom: 0.5px solid #dbdbdb;
+}
+
+.modal_item_t3 {
+    padding: 5px 18px;
+    border-top: 0.5px solid #dbdbdb;
+    border-bottom: 0.5px solid #dbdbdb;
+    cursor: pointer;
+    color: black;
+}
+
+.type_icons {
+    color: black;
+    margin-right: 5px;
+}
+
+.customModal {
+    padding: 0;
+    border-radius: 2px;
+    width: 300px;
+}

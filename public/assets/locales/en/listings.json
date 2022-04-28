@@ -1,0 +1,39 @@
+{
+    "hyderabad": "Hyderabad",
+    "bangalore": "Bangalore",
+    "chennai": "Chennai",
+    "all" : "All",
+    "options": {
+        "plots": "Plots",
+        "residential": "Residential",
+        "agricultural": "Agricultural",
+        "commercial": "Commercial",
+        "industrial": "Industrial",
+        "apartments": "Apartments",
+        "house_villa": "House/Villa",
+        "building": "Building",
+        "others": "Others",
+        "new_listing": "New Listing",
+        "popular": "Popular",
+        "priceLH": "Price Low to High",
+        "PriceHL": "Price High to Low",
+        "price": "Price",
+        "clear_search": "Clear Search",
+        "housing_type": "Housing Type"
+    },
+    "filter": {
+        "list": "List",
+        "map": "Map"
+    },
+    "my_listing": "My Listings",
+    "favourites": "Favourites",
+    "recommended": "Recommended",
+    "load_more": "Load More",
+    "loading": "Loading",
+    "map": {
+        "popular": "Popular",
+        "upcoming": "Upcoming",
+        "red_zones": "Red Zones",
+        "highways": "Highways"
+    }
+}

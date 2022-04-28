@@ -1,0 +1,78 @@
+{
+    "top": {
+        "title": "Download Our App",
+        "detail": "INDMarketplace for Andorid puts Geospatial and Google maps real estate market data at your fingertips. Instantly access the most recent properties posted by users. Tap into INDMarketplace on your iPhone or Android.",
+        "google_play": "GOOGLE PLAY"
+    },
+    "middle": {
+        "title": "Let’s find a property that’s perfect for you. Search confidently with your trusted source of homes for sale.",
+        "menu": "Menu",
+        "buy": "Buy",
+        "rent": "Rent",
+        "information": "Information",
+        "about_us": "About Us",
+        "contact_us": "Contact Us",
+        "propyaar_agent_fb_group": "INDMarketplace Agent FB Group",
+        "legal": "Legal",
+        "privacy_policy": "Privacy Policy",
+        "cookie_policy": "Cookie Policy",
+        "refund": "Refund & Cancellation Policy",
+        "terms": "Terms & Conditions",
+        "pricing": "Pricing",
+        "seolist": {
+            "title": "INDMarketplace",
+            "emusk":"NXTSquare Technologies Pvt.Ltd",
+            "1": "Real estate in Hyderabad",
+            "2":"Flats in Hyderabad",
+            "3": "Flats for Rent in Hyderabad",
+            "4": "New Projects in Hyderabad",
+            "5": "Agricultural Land in Hyderabad",
+            "6": "Farm Land in Hyderabad",
+            "7": "Eco Farm in Hyderabad",
+            "8": "Estate Land in Hyderabad",
+            "9": "Small Farm Land in Hyderabad",
+            "10": "Real estate in Warangal",
+            "11": "Flats in Warangal",
+            "12": "Flats for Rent in Warangal",
+            "14": "New Projects in Warangal",
+            "15": "Agricultural Land in Warangal",
+            "16": "Farm Land in Warangal",
+            "17": "Estate Land in Warangal",
+            "18": "Eco Farm in Warangal",
+            "19": "Small Farm Land in Warangal",
+            "20": "Real estate in Karimnagar",
+            "21": "Flats in Karimnagar",
+            "22": "Flats for Rent in Karimnagar",
+            "23": "New Projects in Karimnagar",
+            "24": "Agricultural Land in Karimnagar",
+            "25": "Farm Land in Karimnagar",
+            "buy&sell": {
+                "buy&sell": "Buy and Sell",
+                "1": "Plots in Hyderabad",
+                "2": "Plots in Bangalore",
+                "3": "Plots in Chennai",
+                "4": "Residential in Hyderabad",
+                "5": "Residential in Bangalore",
+                "6": "Residential in Chennai"
+            },
+            "rent": {
+                "1": "Aparments in Hyderabad",
+                "2": "Aparments in Bangalore",
+                "3": "Aparments in Chennai",
+                "4": "House in Hyderabad",
+                "5": "House in Bangalore",
+                "6": "House in Chennai",
+                "7": "Building in Hyderabad",
+                "8": "Building in Bangalore",
+                "9": "Building in Chennai",
+                "10": "others in Hyderabad",
+                "11": "others in Bangalore",
+                "12": "others in Chennai"
+            }
+        }
+    },
+    "bottom": {
+        "copy_right": "Copyright",
+        "all_rights": "All Rights Reserved"
+    }
+}

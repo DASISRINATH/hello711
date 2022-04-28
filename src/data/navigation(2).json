@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "icon":"home"
+        
+    },
+    {
+        "id": 2,
+        "linkText": "Blog",
+        "child": true,
+        "icon":"writing-1",
+        "submenu": [
+            {
+                "id": 22,
+                "link":"/blog",
+                "linkText" : "List View"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "child": true,
+        "linkText": "Submit Listing",
+        "icon": "list",
+        "submenu": [
+            {
+                "id": 431,
+                "link": "/submit-listing",
+                "linkText": "Lands/Plots"
+             }
+        ]
+    },
+    {
+        "id": 7,
+        "linkText": "Profile",
+        "child": true,
+        "icon":"user",
+        "submenu": [
+            {
+                "id": 71,
+                "link": "/myprofile",
+                "linkText": "MY Profile"
+            },
+            {
+                "id": 72,
+                "link": "/profile-saved-listings",
+                "linkText": "My Favorites"
+            },
+            {
+                "id": 73,
+                "link": "/profile-listings",
+                "linkText": "My Listings"
+            },
+            {
+                "id": 75,
+                "link": "/",
+                "linkText": "Logout"
+            }
+        ]
+    }
+]

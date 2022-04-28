@@ -1,0 +1,39 @@
+{
+    "hyderabad": "హైదరాబాద్",
+    "bangalore": "బెంగళూరు",
+    "chennai": "చెన్నై",
+    "all" : "అన్నీ",
+    "options": {
+        "plots": "ప్లాట్లు",
+        "residential": "నివాస",
+        "agricultural": "వ్యవసాయ",
+        "commercial": "వాణిజ్య",
+        "industrial": "పారిశ్రామిక",
+        "apartments": "అపార్టుమెంట్లు",
+        "house_villa": "హౌస్ / విల్లా",
+        "building": "భవనం",
+        "others": "ఇతరులు",
+        "new_listing": "క్రొత్త జాబితా",
+        "popular": "పాపులర్",
+        "priceLH": "ధర తక్కువ నుండి అధికం",
+        "PriceHL": "ప్రైస్ హై టు తక్కువ",
+        "price": "ధర",
+        "clear_search": "శోధనను క్లియర్ చేయండి",
+        "housing_type": "హౌసింగ్ టైప్"
+    },
+    "filter": {
+        "list": "జాబితా",
+        "map": "మ్యాప్"
+    },
+    "my_listing": "నా జాబితాలు",
+    "favourites": "ఇష్టమైనవి",
+    "recommended": "సిఫార్సు చేయబడింది",
+    "load_more": "మరింత లోడ్ చేయి",
+    "loading": "లోడ్ అవుతోంది",
+    "map": {
+        "popular": "పాపులర్",
+        "upcoming": "రాబోయే",
+        "red_zones": "రెడ్ జోన్స్",
+        "highways": "హైవేస్"
+    }
+}

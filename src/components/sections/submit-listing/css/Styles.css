@@ -1,0 +1,26 @@
+.submit-listing-modal {
+  display: flex;
+  align-items: flex-end;
+}
+
+.imageUploadCont {
+  padding: 12px 20px;
+  border: 1px solid lightgray;
+}
+
+.imageUploadCont .addImage {
+  color: rgb(0, 225, 255);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.submit-listing-modal .submit-button {
+  height: 44px;
+  padding: 6px 15px !important;
+  background-color: #5FB8AE;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}

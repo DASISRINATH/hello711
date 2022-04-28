@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "telephone",
+        "title": "Reach Out",
+        "text": "",
+        "btntext": "Call Us",
+        "btnurl": "tel:+8688932501"
+    },
+    {
+        "id": 2,
+        "icon": "location",
+        "title": "Find Us",
+        "text": "",
+        "btntext": "Get Directions",
+        "btnurl": "#"
+    },
+    {
+        "id": 3,
+        "icon": "speech-bubble",
+        "title": "Get Support",
+        "text": "",
+        "btntext": "Start Chat",
+        "btnurl": "https://api.whatsapp.com/send?phone=918688932501&text=Please%20leave%20us%20your%20message%20.We%20will%20reply%20back%20soon."
+    }
+]

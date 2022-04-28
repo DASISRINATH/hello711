@@ -1,0 +1,34 @@
+{
+    "hyderabad": "Hyderabad",
+    "bangalore": "Bangalore",
+    "chennai": "Chennai",
+    "options": {
+        "buy": "Buy",
+        "rent": "Rent",
+        "blog": "Blog",
+        "download_app": "Download App"
+    },
+    "english": "English",
+    "kannada": "Kannada",
+    "hindi": "Hindi",
+    "listing": {
+        "sell": "Sell",
+        "land_plot": "Land/Plot",
+        "apartments": "Apartments",
+        "house_villa": "House/Villa",
+        "rent": "Rent",
+        "house_apartments": "House/Apartments",
+        "commercial": "Commercial",
+        "residential_land": "Residential Land",
+        "agricultural_land": "Agricultural Land",
+        "commercial_land": "Commercial Land",
+        "industrial_land": "Industrial Land",
+        "residential": "Residential",
+        "add_property": "Add Property"
+    },
+    "profile": {
+        "myprofile": "My Profile",
+        "mylistings": "My Listings",
+        "logout": "Logout"
+    }
+}

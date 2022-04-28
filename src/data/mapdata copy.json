@@ -1,0 +1,138 @@
+[
+    {
+        "geometry": {
+            "coordinates": [
+                17.361209,
+                78.475126
+            ]
+        },
+        "properties": {
+            "title": "Theodore Lowe, Azusa New York 39531",
+            "price": "1,200$/mo",
+            "bed": 3,
+            "bath": 2,
+            "size": "2000 + sqft",
+            "thumbnail": "assets/img/listings/1.jpg",
+            "description": "Washington, D.C."
+        }
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                17.361219,
+                78.475146
+            ]
+        },
+        "properties": {
+            "title": "Iris Watson, Frederick Nebraska 20620",
+            "price": "1,200$/mo",
+            "bed": 3,
+            "bath": 2,
+            "size": "2000 + sqft",
+            "thumbnail": "assets/img/listings/2.jpg",
+            "description": "San Francisco, California"
+        }
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                17.361719,
+                78.475166
+            ]
+        },
+        "properties": {
+            "title": "Theodore Lowe, Azusa New York 39531",
+            "price": "1,200$/mo",
+            "bed": 3,
+            "bath": 2,
+            "size": "2000 + sqft",
+            "thumbnail": "assets/img/listings/3.jpg",
+            "description": "San Francisco, California"
+        }
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                17.361719,
+                78.475166
+            ]
+        },
+        "properties": {
+            "title": "Iris Watson, Frederick Nebraska 20620",
+            "price": "1,200$/mo",
+            "bed": 3,
+            "bath": 2,
+            "size": "2000 + sqft",
+            "thumbnail": "assets/img/listings/4.jpg",
+            "description": "San Francisco, California"
+        }
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                17.361719,
+                78.475166
+            ]
+        },
+        "properties": {
+            "title": "Theodore Lowe, Azusa New York 39531",
+            "price": "1,200$/mo",
+            "bed": 3,
+            "bath": 2,
+            "size": "2000 + sqft",
+            "thumbnail": "assets/img/listings/5.jpg",
+            "description": "San Francisco, California"
+        }
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                17.361719,
+                78.475166
+            ]
+        },
+        "properties": {
+            "title": "Iris Watson, Frederick Nebraska 20620",
+            "price": "1,200$/mo",
+            "bed": 3,
+            "bath": 2,
+            "size": "2000 + sqft",
+            "thumbnail": "assets/img/listings/6.jpg",
+            "description": "San Francisco, California"
+        }
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                17.361719,
+                78.475166
+            ]
+        },
+        "properties": {
+            "title": "Theodore Lowe, Azusa New York 39531",
+            "price": "1,200$/mo",
+            "bed": 3,
+            "bath": 2,
+            "size": "2000 + sqft",
+            "thumbnail": "assets/img/listings/7.jpg",
+            "description": "San Francisco, California"
+        }
+    },
+    {
+        "geometry": {
+            "coordinates": [
+                17.361719,
+                78.475166
+            ]
+        },
+        "properties": {
+            "title": "Iris Watson, Frederick Nebraska 20620",
+            "price": "1,200$/mo",
+            "bed": 3,
+            "bath": 2,
+            "size": "2000 + sqft",
+            "thumbnail": "assets/img/listings/8.jpg",
+            "description": "San Francisco, California"
+        }
+    }
+]

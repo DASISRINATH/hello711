@@ -1,0 +1,34 @@
+{
+    "hyderabad": "ಹೈದರಾಬಾದ್",
+    "bangalore": "ಬೆಂಗಳೂರು",
+    "chennai": "ಚೆನ್ನೈ",
+    "options": {
+        "buy": "ಖರೀದಿಸಿ",
+        "rent": "ಬಾಡಿಗೆ",
+        "blog": "ಬ್ಲಾಗ್",
+        "download_app": "ಅಪ್ಲಿಕೇಶನ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+    },
+    "english": "ಆಂಗ್ಲ",
+    "kannada": "ಕನ್ನಡ",
+    "hindi": "ಹಿಂದಿ",
+    "listing": {
+        "sell": "ಮಾರಾಟ",
+        "land_plot": "ಭೂಮಿ/ಪ್ಲಾಟ್",
+        "apartments": "ಅಪಾರ್ಟ್ಮೆಂಟ್",
+        "house_villa": "ಮನೆ/ವಿಲ್ಲಾ",
+        "rent": "ಬಾಡಿಗೆ",
+        "house_apartments": "ಮನೆ/ಅಪಾರ್ಟ್ಮೆಂಟ್",
+        "commercial": "ವಾಣಿಜ್ಯ",
+        "residential_land": "ವಸತಿ ಭೂಮಿ",
+        "agricultural_land": "ಕೃಷಿ ಭೂಮಿ",
+        "commercial_land": "ವಾಣಿಜ್ಯ ಭೂಮಿ",
+        "industrial_land": "ಕೈಗಾರಿಕಾ ಭೂಮಿ",
+        "residential": "ವಸತಿ",
+        "add_property": "ಆಸ್ತಿ ಸೇರಿಸಿ"
+    },
+    "profile": {
+        "myprofile": "ಸ್ವ ಭೂಮಿಕೆ",
+        "mylistings": "ನನ್ನ ಪಟ್ಟಿಗಳು",
+        "logout": "ಲಾಗ್ ಔಟ್"
+    }
+}
