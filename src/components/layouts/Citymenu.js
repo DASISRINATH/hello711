@@ -1,7 +1,7 @@
 import React, {Fragment, Component, useRef, useState, useEffect, useContext } from "react";
 import { ItemsContext } from "./../../context/ItemsContext";
 import { Link, Redirect, useHistory } from "react-router-dom";
-import DemoImg from "../../assets/img/demo/INDMLogo.png";
+import DemoImg from "../../assets/img/demo/hello71-logo.png";
 //import { Search } from '@material-ui/icons';
 import Select from "react-select";
 import { useTranslation } from 'react-i18next';
