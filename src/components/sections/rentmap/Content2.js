@@ -198,7 +198,7 @@ const Content = (props) => {
     }
     if(tag==="all"||tag==="my-listing"){
       if(postData){
-        await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/10/offset/${offset}/`, postData)
+        await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/10/offset/${offset}/rappikey/app_list_id/2`, postData)
         .then(response => updateItemsState(response.data))
         .then(setS(false))
         .catch(error => callError());

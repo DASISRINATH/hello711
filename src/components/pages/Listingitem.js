@@ -52,7 +52,7 @@ const {isLoggedIn, loginuserId} = useContext(UserContext);
           status:1,
         };
         //await axios.get(`https://api.prod.online.risee.in/index.php/rest/items/get/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/id/${match.params.slug}/cat_id/${Category}/`)
-        await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/`, postData)
+        await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/rappikey/app_list_id/2`, postData)
         .then(response => {
           setItemData(response.data[0])
           fetchRecentListings(response.data[0])

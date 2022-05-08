@@ -23,14 +23,16 @@ class Hometwo extends Component {
                 </MetaTags>
                 <Header/>
                 <HomeBanner/>    
-                <div className="section section-padding pt-0">
-                   <Blockcta/>
-                </div>
                 <div class="footer-top" style={{backgroundColor:'#F7F8FC'}}>
-                    <div className="section mb-5">
+                    <div className="section mb-5 text-center">
+                        <p> Online Marketplace for Language Trainers <b>500+ leading</b></p>
                         <Clients/>
                     </div>  
-                </div>  
+                </div> 
+                <div className="section section-padding pt-2">
+                   <Blockcta/>
+                </div>
+               
                 <InfoSection/>
                 <Counter/>
                 <Content/>

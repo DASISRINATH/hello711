@@ -89,10 +89,10 @@ a:focus,
 .btn-custom::before,
 .acr-arrows.primary-arrows .slick-arrow:hover,
 .acr-arrows.primary-arrows .slick-arrow::after{
-  background-color: #478adc;
+  background-color: #EF4444;
 }
 .acr-arrows.primary-arrows .slick-arrow:hover{
-  border-color: #478adc;
+  border-color: #EF4444;
 }
 
 /*===============================================

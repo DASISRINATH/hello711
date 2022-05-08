@@ -5,7 +5,7 @@ import { processRatingStars } from '../../../helper/helper';
 class Testimonials extends Component {
     render() {
         return (
-            <div className="section section-padding">
+            <div className="section section-padding pt-0">
                 <div className="container">
                     <div className="section-title-wrap section-header">
                         <h5 className="custom-primary">Testimonials</h5>

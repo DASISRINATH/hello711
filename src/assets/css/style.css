@@ -44,8 +44,8 @@
 ===========================*/
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Outfit:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Outfit:400,600,700&display=swap");
 /*-------------------------------------------------------------------*/
 /* === Keyframes === */
 @-webkit-keyframes animateCloud {
@@ -156,7 +156,7 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #5FB8AE;
+  background: #6A307D;
   animation: lds-grid 1.2s linear infinite;
 }
 .lds-grid div:nth-child(1) {
@@ -515,7 +515,7 @@ img {
   background-color: #f7f9fc;
 }
 .primary-bg {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 
 .col-lg-2_5 {
@@ -567,29 +567,31 @@ h4,
 h5,
 h6 {
   margin: 0 0 20px;
-  font-family: "Poppins", serif;
+  font-family: "Outfit", serif;
   font-weight: 700;
   line-height: 28px;
   color: #101737;
 }
 h1 {
-  font-size: 42px;
-  line-height: 50px;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 58px;
 }
 h2 {
   font-size: 36px;
-  line-height: 44px;
-}
-h3 {
-  font-size: 32px;
   line-height: 40px;
 }
+h3 {
+  font-size: 28px;
+  line-height: 36px;
+}
 h4 {
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 22px;
+  line-height: 28px;
 }
 h5 {
   font-size: 18px;
+  line-height:24px;
   font-weight: 600;
 }
 h6 {
@@ -603,7 +605,7 @@ p {
   color: #515151;
 }
 a {
-  color: #5FB8AE;
+  color: #6A307D;
   text-decoration: none;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -673,13 +675,13 @@ small {
   line-height: 21px;
 }
 blockquote {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   position: relative;
   text-align: center;
   padding: 20px;
   margin: 20px 0;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -1027,8 +1029,8 @@ label[for="Rent"] {
 }
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before,
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #5FB8AE;
-  border-color: #5FB8AE;
+  background-color: #6A307D;
+  border-color: #6A307D;
 }
 .custom-control label {
   line-height: 23px;
@@ -1116,7 +1118,7 @@ label[for="Rent"] {
   .select2-results__option--highlighted[aria-selected],
 .select2-container--default .select2-results__option[aria-selected="true"] {
   background-color: transparent;
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .select2-results__option + .select2-results__option {
@@ -1190,7 +1192,7 @@ label[for="Rent"] {
 .acr-custom-select > label {
   padding: 0;
   margin-right: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 600;
   color: #101737;
   position: absolute;
@@ -1247,7 +1249,7 @@ label[for="Rent"] {
   white-space: nowrap;
   vertical-align: middle;
   position: relative;
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   line-height: 20px;
   border: 0;
   color: #fff;
@@ -1257,7 +1259,7 @@ label[for="Rent"] {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 3px;
   overflow: hidden;
   z-index: 1;
 }
@@ -1269,11 +1271,11 @@ label[for="Rent"] {
   content: "";
   width: 100%;
   height: 0;
-  background-color: #478adc;
+  background-color: #EF4444;
   position: absolute;
   bottom: 0;
   left: 0;
-  border-radius: 8px;
+  border-radius: 3px;
   z-index: -1;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1296,10 +1298,10 @@ label[for="Rent"] {
   outline: none;
 }
 .btn-custom.primary {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 .btn-custom.secondary {
-  background-color: #01bbbc;
+  background-color: #6A307D;
 }
 .btn-custom.secondary::before {
   background-color: #00a0a1;
@@ -1329,11 +1331,11 @@ label[for="Rent"] {
 }
 .btn-custom-2.grey:hover {
   background-color: #fff;
-  border-color: #5FB8AE;
-  color: #5FB8AE;
+  border-color: #6A307D;
+  color: #6A307D;
 }
 .btn-custom-2.grey:hover i {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .input-group-append .btn-custom,
@@ -1375,7 +1377,7 @@ button[type="submit"]:disabled {
 1.5. Colors & Badges
 ====================*/
 .custom-primary {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .custom-secondary {
   color: #ff6767;
@@ -1488,7 +1490,7 @@ button[type="submit"]:disabled {
   font-size: 13px;
 }
 .badge.badge-primary {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 .badge.badge-secondary {
   background-color: #aa66cc;
@@ -1537,7 +1539,7 @@ table td {
 table th {
   font-weight: 600;
   background-color: #f7f9fc;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 table tr:last-child td,
 table tr:last-child th {
@@ -1606,7 +1608,7 @@ table img {
 }
 
 .nav-tabs .nav-link:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .nav-tabs .nav-link {
   position: relative;
@@ -1624,11 +1626,11 @@ table img {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  color: #5FB8AE;
+  color: #6A307D;
   background-color: #f9f8f9;
 }
 .nav-tabs .nav-item.show .nav-link::before,
@@ -1661,7 +1663,7 @@ table img {
   box-shadow: 0 2px 9px 0px rgba(34, 12, 43, 0.1);
   margin-bottom: 30px;
   color: #101737;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 .nav-tabs.tab-cards .nav-link:hover {
   background-color: #f7f9fc;
@@ -1671,13 +1673,13 @@ table img {
 }
 .nav-tabs.tab-cards .nav-item.show .nav-link,
 .nav-tabs.tab-cards .nav-link.active {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   color: #fff;
 }
 .nav-tabs.tab-cards .nav-item.show .nav-link span,
 .nav-tabs.tab-cards .nav-link.active span {
   background-color: #fff;
-  color: #5FB8AE;
+  color: #6A307D;
   box-shadow: 0 2px 9px 0px rgba(34, 12, 43, 0.1);
 }
 .nav-tabs.tab-cards .nav-link span {
@@ -1817,7 +1819,7 @@ table img {
 }
 
 .aside-toggler:hover span {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 
 .navbar-brand {
@@ -1847,7 +1849,7 @@ table img {
 }
 
 .navbar .menu-item-has-children .navbar-highlight {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .navbar .menu-item a {
@@ -1872,7 +1874,7 @@ table img {
 
 .navbar .menu-item a.active,
 .navbar .menu-item a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .navbar .menu-item:hover > .submenu {
@@ -1916,7 +1918,7 @@ table img {
 }
 
 .navbar .menu-item .submenu .menu-item a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
   background-color: #f7f9fc;
 }
 .navbar .menu-item > .submenu > .menu-item:last-child > a {
@@ -1979,7 +1981,7 @@ table img {
   left: 9.5px;
   width: 5px;
   height: 5px;
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   border-radius: 50%;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -2029,7 +2031,7 @@ table img {
   color: #101737;
 }
 .main-header.header-2 .navbar .menu-item .submenu .menu-item a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .main-header.header-2.sticky {
@@ -2197,7 +2199,7 @@ table img {
 }
 .main-aside ul .menu-item a:hover,
 .main-aside ul .menu-item a.active {
-  background-color: #01bbbc;
+  background-color: #6A307D;
   color: #fff;
 }
 .main-aside ul .menu-item a:hover i,
@@ -2217,7 +2219,7 @@ table img {
 .main-aside .menu-section-title {
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
   color: #101737;
   margin: 20px 15px 5px;
 }
@@ -2436,7 +2438,7 @@ table img {
 3. Footer
 ========================*/
 .acr-footer {
-  background-color: #f7f9fc;
+  background-color: #2A1332;
   position: relative;
   padding: 80px 0 0;
   overflow: hidden;
@@ -2444,11 +2446,11 @@ table img {
 
 .acr-footer p {
   margin-bottom: 20px;
-  color: #515151;
+  color: #DDDDDD;
 }
 .acr-footer a,
 .acr-footer i {
-  color: #515151;
+  color: #DDDDDD;
 }
 .acr-footer a:hover {
   color: #478adc;
@@ -2537,7 +2539,7 @@ table img {
 }
 
 .midFooter-op div:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .midFooter-op div {
@@ -2615,7 +2617,7 @@ table img {
   margin-top: 10px;
 }
 .acr-language-selector .dropdown-menu li:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .acr-language-selector .dropdown-menu li:last-child {
   padding-bottom: 0;
@@ -2638,7 +2640,7 @@ table img {
   text-transform: uppercase;
 }
 .footer-btn a i {
-  color: #5FB8AE;
+  color: #6A307D;
   margin-right: 10px;
   font-size: 18px;
 }
@@ -2790,7 +2792,7 @@ table img {
   color: #101737;
 }
 .acr-listing-details .acr-listing-section h4 a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .acr-listing-details .acr-listing-section .acr-listing-controls,
 .acr-listing-details .acr-listing-section .acr-listing-nav {
@@ -2850,7 +2852,7 @@ table img {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 .acr-listing-control:hover {
-  background-color: #01bbbc;
+  background-color: #6A307D;
   color: #fff;
 }
 .acr-listing-control:hover i {
@@ -3010,7 +3012,7 @@ table img {
   color: #fff;
 }
 .breadcrumb li a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -3271,7 +3273,7 @@ table img {
   background-color: #d9ffff;
   font-size: 12px;
   font-weight: 600;
-  color: #01bbbc;
+  color: #6A307D;
   border-radius: 8px;
   padding: 3px 6px;
 }
@@ -3313,7 +3315,7 @@ table img {
 .cta.cta-1 {
   position: relative;
   overflow: hidden;
-  background-color: #01bbbc;
+  background-color: #6A307D;
   border-radius: 5px;
   padding: 40px;
 }
@@ -3376,16 +3378,16 @@ table img {
 }
 .cta.cta-2.item1 > i,
 .cta.cta-2.item1 a {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .cta.cta-2.item2 > i,
 .cta.cta-2.item2 a {
-  color: #01bbbc;
+  color: #6A307D;
 }
 
 .cta.cta-2.item3 > i,
 .cta.cta-2.item3 a {
-  color: #01bbbc;
+  color: #6A307D;
 }
 
 .cta-body {
@@ -3500,7 +3502,7 @@ table img {
   color: #101737;
 }
 .acr-agent-body h6 a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .acr-agent-body span {
   display: block;
@@ -3641,7 +3643,7 @@ table img {
 .infographics-3 .acr-infographic-item > i,
 .infographics-4 .acr-infographic-item > i,
 .infographics-5 .acr-infographic-item > i {
-  color: #01bbbc;
+  color: #6A307D;
 }
 .infographics-2 .acr-infographic-item h5 {
   margin-bottom: 10px;
@@ -3661,9 +3663,9 @@ table img {
   height: 50px;
   align-items: center;
   justify-content: center;
-  color: #01bbbc;
+  color: #6A307D;
   border-radius: 50%;
-  border: 1px solid #01bbbc;
+  border: 1px solid #6A307D;
   font-size: 15px;
 }
 .infographics-2 .acr-infographic-item a i {
@@ -3679,7 +3681,7 @@ table img {
 }
 .infographics-2 .acr-infographic-item:hover a {
   color: #fff;
-  background-color: #01bbbc;
+  background-color: #6A307D;
   width: 150px;
   border-radius: 8px;
 }
@@ -3779,7 +3781,7 @@ table img {
 .acr-single-agent-thumb {
   position: relative;
   width: 300px;
-  background-color: #01bbbc;
+  background-color: #6A307D;
   padding: 20px 20px 0;
   border-radius: 8px 0 0 8px;
   z-index: 1;
@@ -3913,7 +3915,7 @@ table img {
 
 .acr-category.category-2:hover {
   transform: translateY(0px);
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   box-shadow: 0 2px 9px 0px rgba(34, 12, 43, 0.1);
 }
 .acr-category.category-2 h5,
@@ -4047,7 +4049,7 @@ table img {
   bottom: 10px;
   left: 10px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
   background-color: rgba(0, 0, 0, 0.8);
   font-size: 13px;
   font-weight: 600;
@@ -4101,7 +4103,7 @@ table img {
   transition: 0.3s;
 }
 .semi-circle:hover {
-  background-color: #01bbbc;
+  background-color: #6A307D;
   color: #fff;
 }
 .semi-circle i {
@@ -4208,7 +4210,7 @@ table img {
 }
 .slick-dots li.slick-active button {
   width: 20px;
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 .slick-slide {
   outline: none;
@@ -4311,7 +4313,7 @@ table img {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   z-index: -1;
   border-radius: 8px;
   -webkit-transform: scale(0);
@@ -4322,8 +4324,8 @@ table img {
   -webkit-transition-delay: 0.1s;
   -o-transition-delay: 0.1s;
   transition-delay: 0.1s;
-  background-color: #5FB8AE;
-  border-color: #5FB8AE;
+  background-color: #6A307D;
+  border-color: #6A307D;
   color: #fff;
 }
 .acr-arrows .slick-arrow:hover::after {
@@ -4332,8 +4334,8 @@ table img {
   transform: scale(1.2);
 }
 .acr-arrows.primary-arrows .slick-arrow {
-  background-color: #5FB8AE;
-  border: 2px solid #5FB8AE;
+  background-color: #6A307D;
+  border: 2px solid #6A307D;
 }
 .acr-arrows.primary-arrows .slick-arrow:hover {
   background-color: #478adc;
@@ -4352,12 +4354,12 @@ table img {
 }
 .acr-arrows.acr-arrows-relative .slick-arrow {
   border: 2px solid #bec9ff;
-  color: #5FB8AE;
+  color: #6A307D;
   margin: 0 10px;
   background-color: #bec9ff;
 }
 .acr-arrows.acr-arrows-relative .slick-arrow:hover {
-  border-color: #5FB8AE;
+  border-color: #6A307D;
   color: #fff;
 }
 .slick-slider .slick-track,
@@ -4397,13 +4399,13 @@ table img {
   margin-left: 15px;
 }
 .pagination .page-item.active .page-link {
-  border: 1px solid #5FB8AE;
+  border: 1px solid #6A307D;
   background-color: #f7f9fc;
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
-  color: #5FB8AE;
+  color: #6A307D;
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -4433,7 +4435,7 @@ table img {
   margin-left: 15px;
   border-radius: 0.25rem;
   cursor: pointer;
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   color: #fff;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -4464,7 +4466,7 @@ table img {
   color: #101737;
 }
 .media-body h6 a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .media-body h6,
 .media-body h5 {
@@ -4561,7 +4563,7 @@ table img {
 }
 .accordion .card .collapseparent.show + .card-header .nav-link i,
 .accordion .card-header[aria-expanded="true"] i {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .accordion .card {
@@ -4720,7 +4722,7 @@ table img {
   justify-content: center;
 }
 .social-media a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .social-media li a i {
   margin: 0;
@@ -4878,7 +4880,7 @@ table img {
   padding: 0;
   align-items: center;
   justify-content: center;
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   color: #fff;
   border-radius: 0 8px 8px 0;
 }
@@ -4959,7 +4961,7 @@ table img {
   color: #101737;
 }
 .sidebar-author-personal a:hover {
-  color: #5FB8AE;
+  color: #6A307D;
 }
 .sidebar-author-personal a + a {
   margin-top: 5px;
@@ -5245,7 +5247,7 @@ table img {
 }
 
 .tag:focus {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   color: white;
 }
 
@@ -5668,7 +5670,7 @@ table img {
   opacity: 1;
 }
 .listing .listing-thumbnail a:hover {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   color: #fff;
 }
 .listing .listing-thumbnail a.favorite:hover {
@@ -5890,7 +5892,7 @@ table img {
   height: 32px;
 }
 .listing .listing-gallery-wrapper .listing-gallery:hover {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 
 .marker {
@@ -5954,7 +5956,7 @@ table img {
   color: #478adc;
 }
 .acr-listing-popup-body .listing-price {
-  color: #5FB8AE;
+  color: #6A307D;
   font-weight: 400;
   font-size: 14px;
   display: block;
@@ -5984,7 +5986,7 @@ table img {
   display: none;
 }
 .leaflet-container a.leaflet-popup-close-button:hover {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 
 .acr-global-listing-controls {
@@ -6011,7 +6013,7 @@ table img {
   color: #848486;
 }
 .acr-toggle-views a.active {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   color: #fff;
 }
 .acr-listing-active-filters {
@@ -6062,7 +6064,7 @@ table img {
   cursor: pointer;
   text-align: center;
   width: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 600;
   color: #101737;
   font-size: 11px;
@@ -6196,7 +6198,7 @@ table img {
   position: absolute;
   top: 15px;
   display: inline-block;
-  background-color: #01bbbc;
+  background-color: #6A307D;
   padding: 7px 20px;
   border-radius: 25px;
   color: #fff;
@@ -6210,7 +6212,7 @@ table img {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid #01bbbc;
+  border-top: 5px solid #6A307D;
 }
 .acr-area-price .progress {
   margin-bottom: 30px;
@@ -6218,7 +6220,7 @@ table img {
   height: 10px;
 }
 .progress-bar {
-  background-color: #01bbbc;
+  background-color: #6A307D;
 }
 .acr-area-price-wrapper {
   display: flex;
@@ -6253,7 +6255,7 @@ table img {
 }
 .listing-feature i {
   font-size: 38px;
-  color: #01bbbc;
+  color: #6A307D;
   width: 55px;
 }
 .listing-feature h6 {
@@ -6376,7 +6378,7 @@ table img {
   transition: 0.3s;
 }
 .listing-banner-inner .slick-arrow:hover {
-  background-color: #01bbbc;
+  background-color: #6A307D;
   color: #fff;
 }
 .listing-banner-inner .slick-arrow.slider-prev {
@@ -6523,7 +6525,7 @@ table img {
 }
 .acr-compare-feature i {
   font-size: 38px;
-  color: #01bbbc;
+  color: #6A307D;
   width: 55px;
 }
 .acr-compare-feature-body + i {
@@ -6567,7 +6569,7 @@ table img {
   box-shadow: 0 2px 9px 0px rgba(34, 12, 43, 0.1);
   margin-bottom: 30px;
   color: #101737;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 .user-nav li a i {
   margin-right: 10px;
@@ -6578,7 +6580,7 @@ table img {
   background-color: #f7f9fc;
 }
 .user-nav li a.active {
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   color: #fff;
 }
 .user-nav li a.logout {
@@ -6901,8 +6903,8 @@ table img {
   color: #101737;
 }
 .acr-auth-content .auth-nav a.active {
-  color: #01bbbc;
-  border-bottom: 2px solid #01bbbc;
+  color: #6A307D;
+  border-bottom: 2px solid #6A307D;
 }
 .social-login {
   margin-bottom: 30px;
@@ -7000,7 +7002,7 @@ table img {
 }
 .acr-pricing.hot-plan {
   z-index: 1;
-  background-color: #01bbbc;
+  background-color: #6A307D;
 }
 .acr-pricing.hot-plan::before {
   content: "";
@@ -7350,7 +7352,7 @@ div.dropdown {
 .contacts-list .contacts-content .contacts-info .chat-unread {
   float: right;
   margin-right: 0.25rem;
-  background-color: #5FB8AE;
+  background-color: #6A307D;
   color: white;
   border-radius: 100%;
   width: 28px;

@@ -58,7 +58,7 @@ const Content = () => {
                                 <div className="hometwo-itemD">
                                     <div className="itemD-title">{item.title.length > 23 ? item.title.slice(0,19)+"..." : item.title}</div>
                                     {
-                                        item.price_SqYard !== "0" ?  
+                                        item.price_SqYard !== "0" ? 
                                         <div className="cost"> <span>₹ </span>{item.price_SqYard}/Sq. Yd </div> :
                                         item.price !== "0" && <div className="cost"> <span>₹ </span>{item.price}</div>
                                     }
@@ -105,7 +105,7 @@ const Content = () => {
                         </div>
                     ))} */}
                     </div>
-                    <div class="section text-center">
+                    <div class="pt-5 text-center">
                         <Link to="/listing-map" className="btn-custom">Browse Listings</Link>
                     </div>
                 </div>
