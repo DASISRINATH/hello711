@@ -1,5 +1,4 @@
 import React, { Component, Fragment, useContext, useEffect, useState } from 'react';
-import Blockcta from '../../layouts/Blockcta';
 import Banner from './Banner';
 import Contactform from './Contactform';
 import Bluecta from '../../layouts/Bluecta';
@@ -27,15 +26,22 @@ const Content = () => {
 
     return (
         <Fragment>
-            <Banner/>
+            {/* <Banner/> */}
             {/* <Numbers /> */}
-            <div className="section section-padding pt-0">
-                <Blockcta/>
-            </div>
+            
             <div className="hometwo-listings section section-padding pt-0">
                 <div className="container">
+                    <div className="section section-title-wrap text-center">
+                            <h5 className="custom-primary">Our Ways</h5>
+                            <h2 className="title">Watch Our Agents Do Their Jobs</h2>
+                            <p className="subtitle">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            
+                            {/* <Link to="https://www.youtube.com/watch?v=TKnufs85hXk&t=1s" className="btn-custom popup-youtube"> <i className="m-0 fas fa-play" /> </Link> */}
+                        </div>
                     <div className="hometwo-title">
-                        <span className="title">New Listings</span>
+                        {/* <span className="title">New Listings</span> */}
                         {/* <span onClick={() => setViewMore(true)} className="view_more">View More...</span> */}
                         <Link to="/properties">View More...</Link>
                     </div>
@@ -99,12 +105,15 @@ const Content = () => {
                         </div>
                     ))} */}
                     </div>
+                    <div class="section text-center">
+                        <Link to="/listing-map" className="btn-custom">Browse Listings</Link>
+                    </div>
                 </div>
                 
             </div>
-            <div className="section pt-0">
+            {/* <div className="section pt-0">
                 <Bluecta/>
-            </div>
+            </div> */}
             {/* <div style={{marginTop:'-80px'}}>
                 <Testimonials />
             </div> */}

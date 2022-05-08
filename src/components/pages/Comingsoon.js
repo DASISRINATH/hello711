@@ -7,7 +7,7 @@ class Comingsoon extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell</title>
+                    <title>Hello71 - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell</title>
                     <meta
                         name="description"
                         content="#"

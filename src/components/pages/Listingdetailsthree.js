@@ -9,7 +9,7 @@ class Listingdetailsthree extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Listing Details</title>
+                    <title>Hello71 - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Listing Details</title>
                     <meta
                         name="description"
                         content="#"

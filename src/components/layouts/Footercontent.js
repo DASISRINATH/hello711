@@ -11,7 +11,7 @@ class Footercontent extends Component {
                             <div className="footer-logo">
                                 {/* <img src={process.env.PUBLIC_URL + "/assets/img/logo-light.png"} alt="propyaar" /> */}
                                 {/* <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="propyaar" /> */}
-                                <img src={process.env.PUBLIC_URL + "/assets/img/IINDMLogo.png"} alt="INDMarketplace" />
+                                <img src={process.env.PUBLIC_URL + "/assets/img/IINDMLogo.png"} alt="Hello71" />
                             </div>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
                             <ul className="social-media">

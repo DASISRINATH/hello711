@@ -276,14 +276,14 @@
   width: 100%;
   padding: 0;
   text-align: center;
-  border: 1px solid #007bff;
+  border: 1px solid #F97316;
   border-radius: 3px;
   background-color: white;
-  color: #007bff;
+  color: #F97316;
 }
 
 .companyLink:hover {
-  background-color: #007bff;
+  background-color: #F97316;
   color: white;
   transition: background-color 0.2s ease;
 }
@@ -501,7 +501,7 @@
 }
 
 .pl-title a:hover {
-  color: #5FB8AE !important;
+  color: #6A307D !important;
 }
 
 .pl-text {

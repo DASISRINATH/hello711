@@ -124,7 +124,7 @@ const {isLoggedIn, loginuserId} = useContext(UserContext);
                 itemData !== '' &&
                   <Fragment>
                       <MetaTags>
-                          <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | News </title>
+                          <title>Hello71 - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | News </title>
                           <meta
                               name="description"
                               content="#"

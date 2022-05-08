@@ -10,7 +10,7 @@ class Listinglist extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Listing List</title>
+                    <title>Hello71 - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Listing List</title>
                     <meta
                         name="description"
                         content="#"

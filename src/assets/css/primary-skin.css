@@ -1,7 +1,7 @@
 /* Simply Replace the colors in this stylesheet to your brand. */
 
 /*===============================================
-PRIMARY COLOR Default: #5FB8AE
+PRIMARY COLOR Default: #6A307D
 ==============================================*/
 .lds-grid div,
 .primary-bg, blockquote,
@@ -22,7 +22,7 @@ PRIMARY COLOR Default: #5FB8AE
 .listing .listing-gallery-wrapper .listing-gallery:hover,
 .mapboxgl-popup-close-button:hover, .acr-toggle-views a.active,
 .user-nav li a.active{
-  background-color: #5FB8AE;
+  background-color: #6A307D;
 }
 
 a,
@@ -52,7 +52,7 @@ a,
 .social-media a:hover, .search-wrapper button,
 .sidebar-author-personal a:hover, .listing .listing-price,
 .acr-listing-popup-body .listing-price{
-  color: #5FB8AE;
+  color: #6A307D;
 }
 
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before,
@@ -60,7 +60,7 @@ a,
 .btn-custom-2.grey:hover, .acr-arrows .slick-arrow:hover,
 .acr-arrows.primary-arrows .slick-arrow,
 .acr-arrows.acr-arrows-relative .slick-arrow:hover{
-  border-color: #5FB8AE;
+  border-color: #6A307D;
 }
 
 /*===============================================
@@ -96,7 +96,7 @@ a:focus,
 }
 
 /*===============================================
-SECONDARY COLOR Default: #01BBBC
+SECONDARY COLOR Default: #6A307D
 ==============================================*/
 
 .acr-featured-listing .featured-listing-thumb .featured-listing-controls span,
@@ -110,7 +110,7 @@ SECONDARY COLOR Default: #01BBBC
 .listing-feature i,
 .acr-compare-feature i,
 .acr-auth-content .auth-nav a.active{
-  color: #01BBBC;
+  color: #6A307D;
 }
 
 .btn-custom.secondary,
@@ -122,17 +122,17 @@ SECONDARY COLOR Default: #01BBBC
 .progress-bar,
 .listing-banner-inner .slick-arrow:hover,
 .acr-pricing.hot-plan{
-  background-color: #01BBBC;
+  background-color: #6A307D;
 }
 .infographics-2 .acr-infographic-item a{
-  border-color: #01BBBC;
+  border-color: #6A307D;
 }
 
 .acr-area-price > span::before{
-  border-top-color: #01BBBC;
+  border-top-color: #6A307D;
 }
 .acr-auth-content .auth-nav a.active{
-  border-bottom-color: #01BBBC;
+  border-bottom-color: #6A307D;
 }
 
 /*==================================================

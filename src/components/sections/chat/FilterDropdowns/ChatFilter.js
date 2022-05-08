@@ -66,7 +66,7 @@ const ChatFilter = (props) => {
        className="btn-custom-2 grey"
        style={
         returntype==="buyer"
-          ? { color: "#5FB8AE", borderColor: "#5FB8AE", marginRight:"10px"}
+          ? { color: "#6A307D", borderColor: "#6A307D", marginRight:"10px"}
           : {marginRight:"10px"}
        }
        value="buyer" 
@@ -77,7 +77,7 @@ const ChatFilter = (props) => {
        className="btn-custom-2 grey"
        style={
         returntype==="seller"
-          ? { color: "#5FB8AE", borderColor: "#5FB8AE", marginRight:"10px"}
+          ? { color: "#6A307D", borderColor: "#6A307D", marginRight:"10px"}
           : {marginRight:"10px"}
        }
        value="seller" 
