@@ -22,8 +22,7 @@ export default function ItemContext({ children }) {
     const [s, setS] = useState(false);
     const [viewProp,setViewProp] = useState({ id: "", index: null});
     const [index, setIndex] = useState();
-    const [cat, setCat] = useState("")
-
+    const [cat, setCat] = useState("");
     const [filterFlag,setFilterFlag] = useState(true);
 
     const [subcat, setSubcat] = useState('');
@@ -205,7 +204,7 @@ export default function ItemContext({ children }) {
 
       if(tag!=="favourites"){
         if(postData){
-          await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/20/offset/${offset}/rappikey/app_list_id/2`, postData)
+          await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/20/offset/${offset}/app_list_id/app_c2384a045194a4e3f86572390edb6372`, postData)
           .then(response => updateItemsState(response.data))
           .then(setS(false))
           .catch(error => {callError();
@@ -218,13 +217,13 @@ export default function ItemContext({ children }) {
 
       // console.log(items);
     }
-
+    //API to fetch Items 
     const fetchNewListing = async () => {
       setItems([]);
       var postData = {
         status:1
       };
-      await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/8/offset/8/`, postData)
+      await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/8/offset/8/app_list_id/app_c2384a045194a4e3f86572390edb6372`, postData)
       .then(response => setHomeItem(response.data))
       .catch(err => console.log(err));
     }

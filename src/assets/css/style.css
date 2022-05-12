@@ -2550,7 +2550,7 @@ table img {
   margin-bottom: 10px;
   font-size: 15px;
   font-weight: 500;
-  color: black !important;
+  color: #ddd !important;
 }
 
 .seolist div {
@@ -2559,6 +2559,7 @@ table img {
 /* Style 2 */
 .acr-footer.footer-2 {
   padding: 0;
+  color: #ddd !important;
 }
 .acr-footer.footer-2 .footer-top {
   background-color: #f7f9fc;
@@ -2576,7 +2577,7 @@ table img {
   align-items: center;
 }
 .acr-footer.footer-2 .footer-middle {
-  padding: 40px 60px 10px 60px;
+  padding: 50px;
 }
 .acr-footer.footer-2 .footer-widget {
   padding-bottom: 60px;

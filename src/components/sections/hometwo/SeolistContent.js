@@ -163,7 +163,7 @@ const Whyus = () => {
                 }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.6')}</div>
             </div> */}
             <div className="col-sm-4 row">
-                <div style={{marginLeft: "15px"}} className="seolist  col-sm-12">{t('footer:middle.seolist.buy&sell.buy&sell')}</div>
+                <div className="seolist  col-sm-12">{t('footer:middle.seolist.buy&sell.buy&sell')}</div>
                 <div style={{margin: "0"}} className="midFooter-op col-sm-6 row">
                 <div onClick={() => {
                     changeBuy("itm_loca7b66748e03d457e976ca63a50e1bde0","catfa070dd5cc2a2c9c6196159f85480ff7");

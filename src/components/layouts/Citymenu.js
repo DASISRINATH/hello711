@@ -6,11 +6,6 @@ import DemoImg from "../../assets/img/demo/hello71-logo.png";
 import Select from "react-select";
 import { useTranslation } from 'react-i18next';
 
-
-
-
-
-
 function NavMenu(){
   const { t, i18n } = useTranslation(['header']);
   const locations =[

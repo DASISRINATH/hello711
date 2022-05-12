@@ -9,7 +9,7 @@ import Testimonials from '../sections/hometwo/Testimonials';
 import Blockcta from '../layouts/Blockcta';
 import InfoSection from '../sections/hometwo/InfoSection';
 import Counter from '../sections/hometwo/Counter';
-
+import Services from './Servicesdetails';
 class Hometwo extends Component {
     render() {
         return (
@@ -34,9 +34,9 @@ class Hometwo extends Component {
                 </div>
                
                 <InfoSection/>
-                <Counter/>
+                <Services/>
+                {/* <Counter/> */}
                 <Content/>
-               
                 <Testimonials />
                 <Footer/>
             </Fragment>
