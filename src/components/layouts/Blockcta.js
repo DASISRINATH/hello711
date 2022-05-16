@@ -9,19 +9,19 @@ const ctablock = [
     {
         id: 1,
         icon: 'sales-agent',
-        title: 'Buying a Property?',
+        title: 'Are you Language Trainer?',
         text: "Search in your City, use map custom filters to find a property as per your need."
     },
     {
         id: 2,
-        icon: 'sold',
-        title: 'Selling a Property?',
+        icon: 'user',
+        title: 'Want to learn New Langugage?',
         text: "Posting your listing by providing images, videos, 3d tours exact google map location along with layout."
     },
     {
         id: 3,
-        icon: 'company',
-        title: "Explore Mobiles",
+        icon: 'star',
+        title: "Explore Language Resources",
         text: "Find Mobiles available for sale posted by Users."
     }
 ]
@@ -30,6 +30,10 @@ class Blockcta extends Component {
     render() {
         return (
             <div className="container">
+                  <div className="section-title-wrap section-header">
+                        <h5 className="custom-primary">Why Hello71?</h5>
+                        <h2 className="title">You Need It, We Got It</h2>
+                    </div>
                 <div className="row">
                 <BuyModalBox id={ctablock[0].id} icon={ctablock[0].icon} title={ctablock[0].title} text={ctablock[0].text} />
                 <SellModalBox id={ctablock[1].id} icon={ctablock[1].icon} title={ctablock[1].title} text={ctablock[1].text} />

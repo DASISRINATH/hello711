@@ -25,11 +25,11 @@ class Hometwo extends Component {
                 <HomeBanner/>    
                 <div class="footer-top" style={{backgroundColor:'#F7F8FC'}}>
                     <div className="section mb-5 text-center">
-                        <p> Online Marketplace for Language Trainers <b>500+ leading</b></p>
+                        <p> Worlds language's <b>Top 10+</b> are available to learn on Hello71.</p>
                         <Clients/>
                     </div>  
                 </div> 
-                <div className="section section-padding pt-2">
+                <div className="section section-padding pt-2">   
                    <Blockcta/>
                 </div>
                

@@ -8,8 +8,8 @@ class Services extends Component {
             <div className="section light-bg infographics-2 bg-norepeat bg-bottom" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/assets/img/misc/bldg.png )" }}>
                 <div className="container">
                     <div className="section-title-wrap section-header">
-                        <h5 className="custom-primary">Services</h5>
-                        <h2 className="title">You Need It, We Got It</h2>
+                        <h5 className="custom-primary">For Trainers & Learners.</h5>
+                        <h2 className="title">How it works?</h2>
                     </div>
                     <div className="row">
                         {serviceblock.map((item, i) => (
