@@ -164,7 +164,7 @@ function Chat(){
         (!isLoggedIn && !condition) ? <Redirect to="/404"/> : 
         <Fragment>
           <MetaTags>
-            <title>Hello71 - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell</title>
+            <title>Hello71 - Online Marketplace for Language Trainers & Learners</title>
             <meta
               name="description"
               content="#"

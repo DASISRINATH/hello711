@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Hello71 - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Homepage</title>
+                    <title>Hello71 - Online Marketplace for Language Trainers & Learners</title>
                     <meta
                         name="description"
                         content="#"

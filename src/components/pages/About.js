@@ -10,7 +10,7 @@ class About extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell</title>
+                    <title>Hello71 - Online Marketplace for Language Trainers & Learners</title>
                     <meta
                         name="description"
                         content="#"

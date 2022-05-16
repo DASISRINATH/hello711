@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 col-sm-12 footer-widget">
-                            <div className="footer-logo"> <img src={process.env.PUBLIC_URL + "/assets/img/propyaar-logo.svg"} alt="propyaar" /> </div>
+                            <div className="footer-logo"> <img src={process.env.PUBLIC_URL + "/assets/img/hello71-wt-logo.svg"} alt="propyaar" /> </div>
                             <p>{t('footer:middle.title')}</p>
                             {/* <Dropdown className="acr-language-selector">
                                 <Dropdown.Toggle as={NavLink} className="dropdownicon">
@@ -36,7 +36,7 @@ const Footer = () => {
                             </Dropdown> */}
                         </div>
                         <div className="col-lg-2 offset-lg-1 col-sm-4 col-xs-6 footer-widget">
-                            <h5 className="widget-title">{t('footer:middle.menu')}</h5>
+                            <h5 className="widget-title" style={{color: "#ddd"}}>{t('footer:middle.menu')}</h5>
                             <ul>
                                 <li> <Link to="/properties">{t('footer:middle.buy')}</Link> </li>
                                 {/* <li> <Link to="/rent">{t('footer:middle.rent')}</Link> </li> */}
@@ -46,7 +46,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-lg-2 col-sm-4 footer-widget">
-                            <h5 className="widget-title">{t('footer:middle.information')}</h5>
+                            <h5 className="widget-title" style={{color: "#ddd"}}>{t('footer:middle.information')}</h5>
                             <ul>
                                 <li> <Link to="/about">{t('footer:middle.about_us')}</Link> </li>
                                 <li> <Link to="/contact">{t('footer:middle.contact_us')}</Link> </li>
@@ -57,7 +57,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-lg-2 col-sm-4 footer-widget">
-                            <h5 className="widget-title">{t('footer:middle.legal')}</h5>
+                            <h5 className="widget-title" style={{color: "#ddd"}}>{t('footer:middle.legal')}</h5>
                             <ul>
                                 <li> <Link to="/privacy-policy">{t('footer:middle.privacy_policy')}</Link> </li>
                                 <li> <Link to="/refunds-cancellations">{t('footer:middle.refund')}</Link> </li>
@@ -67,6 +67,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>  
+                    {/* <hr /> */}
                     <div className="row">
                         <div className="col-sm-12">
                             {/* <h4 class="title">{t('footer:middle.seolist.title')}</h4> */}
@@ -74,7 +75,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                
             </div>
             {/* Footer Middle End */}
             {/* Footer Bottom Start */}

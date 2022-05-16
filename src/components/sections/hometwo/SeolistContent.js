@@ -134,7 +134,7 @@ const Whyus = () => {
         history.push("/rent");
     }       
     return (
-        <div className="row" style={{marginLeft:'0px'}}>
+        <div className="row">
             {/* {seolist.map((item, i) => (
                 <div key={i} className="col-sm-2" style={{padding:'0px',margin:'0px 0px 0px 0px'}}>
                     <p style={{fontSize:'12px',marginBottom:'0px'}}>{t(`footer:middle.seolist.${item.id}`)}</p>
@@ -162,7 +162,7 @@ const Whyus = () => {
                     changeBuy("itm_loc247387cc3640d1a88f3d9342d216dc13","cat445639833db3eff8b6cdb5510aa39faa");
                 }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.6')}</div>
             </div> */}
-            <div className="col-sm-4 row">
+            <div className="col-sm-6 row">
                 <div className="seolist  col-sm-12">{t('footer:middle.seolist.buy&sell.buy&sell')}</div>
                 <div style={{margin: "0"}} className="midFooter-op col-sm-6 row">
                 <div onClick={() => {
@@ -188,10 +188,7 @@ const Whyus = () => {
                     changeBuy("itm_loc247387cc3640d1a88f3d9342d216dc13","cat445639833db3eff8b6cdb5510aa39faa");
                 }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.6')}</div>
                 </div>
-            </div>
-            <div className="col-sm-8 row">
-                <div style={{marginLeft: "15px"}} className="seolist  col-sm-12">{t('footer:middle.rent')}</div>
-                <div style={{margin: "0"}} className="midFooter-op col-sm-3 row">
+                {/* <div style={{margin: "0"}} className="midFooter-op col-sm-3 row">
                     <div onClick={() => {
                         changeRent("itm_loca7b66748e03d457e976ca63a50e1bde0","subcat89d510a83500e9ac2ecec99cd6b26c94");
                     }} className=" col-sm-12">{t('footer:middle.seolist.rent.1')}</div>
@@ -202,9 +199,11 @@ const Whyus = () => {
                         changeRent("itm_loc247387cc3640d1a88f3d9342d216dc13","subcat89d510a83500e9ac2ecec99cd6b26c94");
                     }} className=" col-sm-12">{t('footer:middle.seolist.rent.3')}</div>
                     
-                </div>
-
-                <div style={{margin: "0"}} className="midFooter-op col-sm-3 row">
+                </div> */}
+            </div>
+            <div className="col-sm-6 row">
+                <div style={{marginLeft: "15px"}} className="seolist  col-sm-12">{t('footer:middle.rent')}</div>
+                <div style={{margin: "0"}} className="midFooter-op col-sm-6 row">
                 <div onClick={() => {
                         changeRent("itm_loca7b66748e03d457e976ca63a50e1bde0","subcatca64dc358e7737518a68ec88f7e3f99a");
                     }} className=" col-sm-12">{t('footer:middle.seolist.rent.4')}</div>
@@ -216,7 +215,7 @@ const Whyus = () => {
                     }} className=" col-sm-12">{t('footer:middle.seolist.rent.6')}</div>
                     
                 </div>
-                <div style={{margin: "0"}} className="midFooter-op col-sm-3 row">
+                <div style={{margin: "0"}} className="midFooter-op col-sm-6 row">
                 <div onClick={() => {
                         changeRent("itm_loca7b66748e03d457e976ca63a50e1bde0","subcat83e59467ed17dd3c8ce2b22fc1876e2c");
                     }} className=" col-sm-12">{t('footer:middle.seolist.rent.7')}</div>
@@ -227,7 +226,7 @@ const Whyus = () => {
                         changeRent("itm_loc247387cc3640d1a88f3d9342d216dc13","subcat83e59467ed17dd3c8ce2b22fc1876e2c");
                     }} className=" col-sm-12">{t('footer:middle.seolist.rent.9')}</div>
                 </div>
-                <div style={{margin: "0"}} className="midFooter-op col-sm-3 row">
+                {/* <div style={{margin: "0"}} className="midFooter-op col-sm-3 row">
                 <div onClick={() => {
                         changeRent("itm_loca7b66748e03d457e976ca63a50e1bde0","subcatc4b6928dd0ba7f1f4ffc5a4588cea59e");
                     }} className=" col-sm-12">{t('footer:middle.seolist.rent.10')}</div>
@@ -237,7 +236,7 @@ const Whyus = () => {
                     <div onClick={() => {
                         changeRent("itm_loc247387cc3640d1a88f3d9342d216dc13","subcatc4b6928dd0ba7f1f4ffc5a4588cea59e");
                     }} className=" col-sm-12">{t('footer:middle.seolist.rent.12')}</div>
-                </div>
+                </div> */}
             </div>
             {/* <div className="col-sm-2 row">
                 <div className="seolist pd-none col-sm-12">Rent</div>

@@ -10,7 +10,7 @@ class Career extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Hello71 - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Lands/Plots Marketing | Career</title>
+                    <title>Hello71 - Online Marketplace for Language Trainers & Learners</title>
                     <meta
                         name="description"
                         content="#"
