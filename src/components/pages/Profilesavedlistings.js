@@ -10,7 +10,7 @@ class Profilesavedlistings extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | My Products</title>
+                    <title>Hello71 - One Stop Platform for all your Foreign Language Trianers & Resources My Products</title>
                     <meta
                         name="description"
                         content="#"

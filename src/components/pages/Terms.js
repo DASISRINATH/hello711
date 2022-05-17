@@ -10,7 +10,7 @@ class Legal extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Terms and Conditions</title>
+                    <title>Hello71 - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Terms and Conditions</title>
                     <meta
                         name="description"
                         content="#"

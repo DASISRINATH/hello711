@@ -8,7 +8,7 @@ class Register extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Register</title>
+                    <title>Hello71 - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Register</title>
                     <meta
                         name="description"
                         content="#"

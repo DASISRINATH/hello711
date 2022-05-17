@@ -144,7 +144,7 @@ function Chat(){
     //       condition() ?
     //        <Fragment>
     //            <MetaTags>
-    //                <title>INDMarketplace - Real Estate Platform | Services | Marketing | News </title>
+    //                <title>Hello71 - Real Estate Platform | Services | Marketing | News </title>
     //                <meta
     //                    name="description"
     //                    content="#"

@@ -3,24 +3,24 @@
         "id": 1,
         "icon": "search",
         "title": "Explore Trainers",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "text": "Search for High rated Foreign Language Trainers in your city or country."
     },
     {
         "id": 2,
         "icon": "picture",
         "title": "Book a Demo",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "text": "Contact your favorite Trainer and book a Online demo for the classes."
     },
     {
         "id": 3,
         "icon": "speech-bubble",
         "title": "Join Live Demo Class",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "text": "Attend the online demo and get your doubts cleared before taking classes."
     },
     {
         "id": 4,
         "icon": "new",
         "title": "Enroll & Complete Class",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "text": "Flexible enrollment on a budget friendly prices for all the language courses."
     }
 ]

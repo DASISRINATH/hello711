@@ -20,7 +20,7 @@ function Contactform() {
                                 <Card>
                                     <Accordion.Collapse eventKey="0" className="collapseparent">
                                         <Card.Body>
-                                            For accesssing any of the Features on INDMarketplace, User must login first. He can login using a Phone number or by using email and password.Once logged in, he can goto Post Property Link and submit his listing.
+                                            For accesssing any of the Features on Hello71, User must login first. He can login using a Phone number or by using email and password.Once logged in, he can goto Post Property Link and submit his listing.
                                             </Card.Body>
                                     </Accordion.Collapse>
                                     <Card.Header>

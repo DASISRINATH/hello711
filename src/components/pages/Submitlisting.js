@@ -11,7 +11,7 @@ class Submitlisting extends Component {
       <Fragment>
         <MetaTags>
           <title>
-            INDMarketplace - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell |
+            Hello71 - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell |
             Submit Listing
           </title>
           <meta name="description" content="#" />

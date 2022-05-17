@@ -9,7 +9,7 @@ const Privacy = ()=>{
   return (
     <Fragment>
       <MetaTags>
-        <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Privacy Policy</title>
+        <title>Hello71 - One Stop Platform for all your Foreign Language Trianers & Resources Privacy Policy</title>
         <meta
           name="description"
           content="#"

@@ -9,15 +9,15 @@ class HomeBanner extends Component {
                     <div className="row align-items-center">
                     <div className="col-lg-5">
                             <div className="section-title-wrap mr-lg-30">
-                                <h5 className="custom-primary">About Us</h5>
-                                <h2 className="title">We provide state of the art real estate service</h2>
+                                <h5 className="custom-primary">Learn Foriegn Languages.</h5>
+                                <h2 className="title">Learning a new language is now easier with Hello71.</h2>
                                 <p className="subtitle">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Explore Trainers, share tips, strategies, and resources for helping students develop in world languages. 
                                 </p>
                                 <p className="subtitle">
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                Join Live and Interactive Online Classes with the best Tutors                      
                                 </p>
-                                <Link to="/listing-map" className="btn-custom">Browse Listings</Link>
+                                <Link to="/listing-map" className="btn-custom">Join Us</Link>
                             </div>
                         </div>
                         <div className="col-lg-7 mb-lg-30 acr-dots-wrapper acr-single-img-wrapper">

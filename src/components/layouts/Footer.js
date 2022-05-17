@@ -86,8 +86,8 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-5">
                             <ul className="social-media">
-                                <li> <a href="https://www.facebook.com/propyaar/" target="_blank"> <i className="fab fa-facebook-f" /> </a> </li>
-                                <li> <a href="https://www.instagram.com/propyaar/" target="_blank"> <i className="fab fa-instagram" /> </a> </li>
+                                <li> <a href="https://www.facebook.com/hello71Learn" target="_blank"> <i className="fab fa-facebook-f" /> </a> </li>
+                                <li> <a href="https://www.instagram.com/hello71learn/" target="_blank"> <i className="fab fa-instagram" /> </a> </li>
                                 {/* <li> <Link to="#"> <i className="fab fa-pinterest-p" /> </Link> </li> */}
                                 <li> <a href="https://www.youtube.com/channel/UC6hj6GKbSTlH0EKEBh1Vu_A" target="_blank"> <i className="fab fa-youtube" /> </a> </li>
                                 <li> <a href="https://twitter.com/propyaar"> <i className="fab fa-twitter" target="_blank" /> </a> </li>

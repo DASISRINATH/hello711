@@ -8,7 +8,7 @@ class Login extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Login</title>
+                    <title>Hello71 - One Stop Platform for all your Foreign Language Trianers & Resources Login</title>
                     <meta
                         name="description"
                         content="#"

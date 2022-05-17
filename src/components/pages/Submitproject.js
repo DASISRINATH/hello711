@@ -10,7 +10,7 @@ class Submitlisting extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Submit Listing</title>
+                    <title>Hello71 - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Submit Listing</title>
                     <meta
                         name="description"
                         content="#"

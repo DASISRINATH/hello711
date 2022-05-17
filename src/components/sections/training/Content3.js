@@ -306,7 +306,7 @@ const Content = () => {
             <div className="container">
                 <div className="row">
                 <div className="col-lg-7">
-                        <p className="m-0">© Copyright 2020 - <Link to="#">INDMarketplace </Link> All Rights Reserved.</p>
+                        <p className="m-0">© Copyright 2020 - <Link to="#">Hello71 </Link> All Rights Reserved.</p>
                     </div>
                     <div className="col-lg-5">
                     <ul className="social-media" style={{flexDirection:"row"}}>

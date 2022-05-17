@@ -42,7 +42,7 @@ class Profile extends Component {
                {isLoggedin ? (
                   <Fragment>
                       <MetaTags>
-                          <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | My Account</title>
+                          <title>Hello71 - One Stop Platform for all your Foreign Language Trianers & Resources My Account</title>
                           <meta
                               name="description"
                               content="#"

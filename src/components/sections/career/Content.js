@@ -50,7 +50,7 @@ const Content = () => {
             <img src={process.env.PUBLIC_URL + "/assets/img/banner/career_banner.jpeg"} alt="career" />
 
             <div className="container my-3">
-                <h3 className="container_title">Why Join INDMarketplace?</h3> 
+                <h3 className="container_title">Why Join Hello71?</h3> 
                 <p>We are looking for some one who have entrepreneur mindset, who like challenging job. We want someone who can work in team and in a Startup Ecosystem.</p>              
             </div>
             <div className="section pt-0">

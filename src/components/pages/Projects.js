@@ -12,7 +12,7 @@ class Listingmap extends Component {
     return (
       <Fragment>
         <MetaTags>
-          <title>INDMarketplace - Online Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Listing Map</title>
+          <title>Hello71 - One Stop Platform for all your Foreign Language Trianers & Resources Listing Map</title>
           <meta name="description" content="#" />
         </MetaTags>
         <Header />

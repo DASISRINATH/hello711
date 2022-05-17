@@ -10,7 +10,7 @@ class Contact extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>INDMarketplace - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Contact Us</title>
+                    <title>Hello71 - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Contact Us</title>
                     <meta
                         name="description"
                         content="#"

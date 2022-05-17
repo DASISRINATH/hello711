@@ -13,7 +13,7 @@ class Rentmap extends Component {
     return (
       <Fragment>
         <MetaTags>
-          <title>INDMarketplace - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Rent Map</title>
+          <title>Hello71 - ReOnline Marketplace | Mobiles | Tablets | Accessories | Buy amd Sell | Rent Map</title>
           <meta name="description" content="#" />
         </MetaTags>
         <Header />
