@@ -160,7 +160,7 @@ export default function Mobileinputform({Otp,clsmodal}) {
                 </div>
 
               
-                <div className="text-center">
+                {/* <div className="text-center">
                   <p>--OR--</p>
                 </div>
 
@@ -176,7 +176,7 @@ export default function Mobileinputform({Otp,clsmodal}) {
                     onClick={()=> setAlertmsg({ status:true,})}
                   />
 
-                </div>
+                </div> */}
 
                 <div className="modalbox-tc">
                   <input type="checkbox" checked={flag} onChange={()=>setFlag(!flag)}/>

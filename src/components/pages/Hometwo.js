@@ -27,7 +27,7 @@ class Hometwo extends Component {
                 <HomeBanner/>    
                 <div class="footer-top" style={{backgroundColor:'#F7F8FC'}}>
                     <div className="section mb-5 text-center">
-                        <p> Worlds language's <b>Top 10+</b> are available to learn on Hello71.</p>
+                        <p>Worlds <b>Top 10+</b> language's are available to learn on <b>Hello71</b>.</p>
                         <Clients/>
                     </div>  
                 </div> 

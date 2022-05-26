@@ -325,16 +325,16 @@ export default function Header(props) {
                     </Button>
                   </li>
                 )}
-                <li>
+                {/* <li>
                   {isLoggedIn ? (
                     <Notifications />
                   ) : (
                     <i className="fas fa-bell" style={{ fontSize: "18px" }}></i>
                   )}
-                </li>
+                </li> */}
                 <li>
                   <div>
-                  <Link to="/submit-listing" className="btn btn-sm header-add-property"><AddIcon /></Link>  
+                  {/* <Link to="/submit-listing" className="btn btn-sm header-add-property"><AddIcon /></Link>   */}
                   
                     {/* <Dropdown>
                       <Dropdown.Toggle
@@ -499,46 +499,46 @@ export default function Header(props) {
                     {/* </Dropdown> */}
 
                     {/* <ButtonGroup vertical size="sm">
-                                            <DropdownButton as={ButtonGroup} id="bg-vertical-dropdown-1" size="sm">
-                                            
+                              <DropdownButton as={ButtonGroup} id="bg-vertical-dropdown-1" size="sm">
+                              
 
-                                            {isLoggedIn ?
-                                               <Dropdown className="create-dropdown" style={{cursor: "initial",borderTop: "0"}}><span style={{fontSize:'15px'}}>Listing to Sell</span></Dropdown>
-                                               :(<Dropdown className="create-dropdown"><Modalbox btnType="create" btnText={'Listing to Sell'} icon={""}/></Dropdown>)
-                                            } 
-                                            
-                                            {isLoggedIn ?
-                                               <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/1"><span to="/submit-listing" className="create-dropdown-span"><FilterHdrIcon /> Land/Plots</span></Dropdown.Item>
-                                               :(<Dropdown className="create-dropdown-item-login-off btn w-100" ><Modalbox btnType="create" btnText={'Land/Plots'} icon={<FilterHdrIcon />}/></Dropdown>)
-                                            }          
-                                            
-                                            {isLoggedIn ?
-                                              <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/2"><span to="" className="create-dropdown-span"><ApartmentIcon/> Apartments</span></Dropdown.Item>
-                                            : (<Dropdown className="create-dropdown-item-login-off btn w-100"><Modalbox btnType="create" btnText={'Apartments'} icon={<ApartmentIcon/>}/></Dropdown>)
-                                            }
-                                            {isLoggedIn ?
-                                              <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/3"><span to="" className="create-dropdown-span"><HomeWorkIcon/>  House/Villa</span></Dropdown.Item>
-                                            : (<Dropdown className="create-dropdown-item-login-off btn w-100"><Modalbox btnType="create" btnText={'House/Villa'} icon={<HomeWorkIcon/>}/></Dropdown>)
-                                            }
-                                            
-                                            
-                                            {isLoggedIn ?
-                                               <Dropdown className="create-dropdown" style={{cursor: "initial"}}><span style={{fontSize:'15px'}}>Listing to Rent</span></Dropdown>
-                                               :(<Dropdown className="create-dropdown"><Modalbox btnType="create" btnText={'Listing to Rent'} icon={""}/></Dropdown>)
-                                            }
+                              {isLoggedIn ?
+                                  <Dropdown className="create-dropdown" style={{cursor: "initial",borderTop: "0"}}><span style={{fontSize:'15px'}}>Listing to Sell</span></Dropdown>
+                                  :(<Dropdown className="create-dropdown"><Modalbox btnType="create" btnText={'Listing to Sell'} icon={""}/></Dropdown>)
+                              } 
+                              
+                              {isLoggedIn ?
+                                  <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/1"><span to="/submit-listing" className="create-dropdown-span"><FilterHdrIcon /> Land/Plots</span></Dropdown.Item>
+                                  :(<Dropdown className="create-dropdown-item-login-off btn w-100" ><Modalbox btnType="create" btnText={'Land/Plots'} icon={<FilterHdrIcon />}/></Dropdown>)
+                              }          
+                              
+                              {isLoggedIn ?
+                                <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/2"><span to="" className="create-dropdown-span"><ApartmentIcon/> Apartments</span></Dropdown.Item>
+                              : (<Dropdown className="create-dropdown-item-login-off btn w-100"><Modalbox btnType="create" btnText={'Apartments'} icon={<ApartmentIcon/>}/></Dropdown>)
+                              }
+                              {isLoggedIn ?
+                                <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/3"><span to="" className="create-dropdown-span"><HomeWorkIcon/>  House/Villa</span></Dropdown.Item>
+                              : (<Dropdown className="create-dropdown-item-login-off btn w-100"><Modalbox btnType="create" btnText={'House/Villa'} icon={<HomeWorkIcon/>}/></Dropdown>)
+                              }
+                              
+                              
+                              {isLoggedIn ?
+                                  <Dropdown className="create-dropdown" style={{cursor: "initial"}}><span style={{fontSize:'15px'}}>Listing to Rent</span></Dropdown>
+                                  :(<Dropdown className="create-dropdown"><Modalbox btnType="create" btnText={'Listing to Rent'} icon={""}/></Dropdown>)
+                              }
 
-                                            {isLoggedIn ?
-                                              <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/4"><span to="" className="create-dropdown-span"><HomeIcon/> House/Apartments</span></Dropdown.Item>
-                                            : (<Dropdown className="create-dropdown-item-login-off btn w-100"><Modalbox btnType="create" btnText={'House/Apartments'} icon={<HomeIcon/>}/></Dropdown>)
-                                            }
+                              {isLoggedIn ?
+                                <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/4"><span to="" className="create-dropdown-span"><HomeIcon/> House/Apartments</span></Dropdown.Item>
+                              : (<Dropdown className="create-dropdown-item-login-off btn w-100"><Modalbox btnType="create" btnText={'House/Apartments'} icon={<HomeIcon/>}/></Dropdown>)
+                              }
 
-                                            {isLoggedIn ?
-                                              <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/5"><span to="" className="create-dropdown-span"><BusinessIcon/> Commercial</span></Dropdown.Item>
-                                            : (<Dropdown className="create-dropdown-item-login-off btn w-100"><Modalbox btnType="create" btnText={'Commercial'} icon={<BusinessIcon/>}/></Dropdown>)
-                                            }
-                                            
-                                            </DropdownButton>
-                                        </ButtonGroup> */}
+                              {isLoggedIn ?
+                                <Dropdown.Item className="create-dropdown-item" as={Link} to="/submit-listing/5"><span to="" className="create-dropdown-span"><BusinessIcon/> Commercial</span></Dropdown.Item>
+                              : (<Dropdown className="create-dropdown-item-login-off btn w-100"><Modalbox btnType="create" btnText={'Commercial'} icon={<BusinessIcon/>}/></Dropdown>)
+                              }
+                              
+                              </DropdownButton>
+                          </ButtonGroup> */}
                   </div>
                 </li>
 

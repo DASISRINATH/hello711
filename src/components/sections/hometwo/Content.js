@@ -35,7 +35,7 @@ const Content = () => {
                             <h5 className="custom-primary">Our Ways</h5>
                             <h2 className="title">Simple & Easy Way to Learn New Language</h2>
                             <p className="subtitle">
-                            Hello71 offers list of language study and training programs which are expertly designed to equip Individual Students and Professionals, Corporate.<br /> We provide a big pool of highly qualified language trainers and resources at one place.
+                            Hello71 offers list of language study and training programs which are expertly designed to equip Individual Students and Professionals & Corporate.<br /> We provide a big pool of highly qualified language trainers and resources at one place.
                             </p>
                             
                             {/* <Link to="https://www.youtube.com/watch?v=TKnufs85hXk&t=1s" className="btn-custom popup-youtube"> <i className="m-0 fas fa-play" /> </Link> */}

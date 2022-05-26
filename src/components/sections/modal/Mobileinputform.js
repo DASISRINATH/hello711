@@ -119,7 +119,7 @@ export default function Mobileinputform({Otp,clsmodal}) {
             <Button type="submit" className={classes.modalbtn} name="submit" >Login</Button>
             </div>
 
-            <div className="text-center">
+            {/* <div className="text-center">
                 <p>--OR--</p>
             </div>
 
@@ -134,7 +134,7 @@ export default function Mobileinputform({Otp,clsmodal}) {
                   icon="fa-facebook"
                 />
 
-            </div>
+            </div> */}
 
             <div>
               <input type="checkbox" checked={flag} onChange={()=>setFlag(!flag)}/>

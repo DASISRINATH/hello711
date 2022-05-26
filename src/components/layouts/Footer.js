@@ -52,7 +52,7 @@ const Footer = () => {
                                 <li> <Link to="/about">{t('footer:middle.about_us')}</Link> </li>
                                 <li> <Link to="/contact">{t('footer:middle.contact_us')}</Link> </li>
                                 <li> <Link to="/career">Career</Link> </li>
-                                <li> <a href="https://www.facebook.com/groups/520672879025235" target='_blank'>{t('footer:middle.hello71_fb_group')}</a> </li>
+                                <li> <a href="" target='_blank'>{t('footer:middle.hello71_fb_group')}</a> </li>
                                 {/* <li> <Link to="/pricing">Pricing</Link> </li> */}
                                 {/* <li> <Link to="/faq">FAQ's</Link> </li> */}
                             </ul>
@@ -63,7 +63,7 @@ const Footer = () => {
                                 <li> <Link to="/privacy-policy">{t('footer:middle.privacy_policy')}</Link> </li>
                                 <li> <Link to="/refunds-cancellations">{t('footer:middle.refund')}</Link> </li>
                                 <li> <Link to="/terms-and-conditions">{t('footer:middle.terms')}</Link> </li>
-                                <li> <Link to="/Pricing">{t('footer:middle.pricing')}</Link> </li>
+                                <li> <Link to="/">{t('footer:middle.pricing')}</Link> </li>
                                 <li> <Link to="/cookie-policy">{t('footer:middle.cookie_policy')}</Link> </li>
                             </ul>
                         </div>
@@ -90,7 +90,7 @@ const Footer = () => {
                                 <li> <a href="https://www.facebook.com/hello71Learn" target="_blank"> <i className="fab fa-facebook-f" /> </a> </li>
                                 <li> <a href="https://www.instagram.com/hello71learn/" target="_blank"> <i className="fab fa-instagram" /> </a> </li>
                                 {/* <li> <Link to="#"> <i className="fab fa-pinterest-p" /> </Link> </li> */}
-                                <li> <a href="https://www.youtube.com/channel/UC6hj6GKbSTlH0EKEBh1Vu_A" target="_blank"> <i className="fab fa-youtube" /> </a> </li>
+                                {/* <li> <a href="https://www.youtube.com/channel/UC6hj6GKbSTlH0EKEBh1Vu_A" target="_blank"> <i className="fab fa-youtube" /> </a> </li> */}
                                 <li> <a href="https://twitter.com/hello71"> <i className="fab fa-twitter" target="_blank" /> </a> </li>
                             </ul>
                         </div>

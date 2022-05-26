@@ -4,6 +4,10 @@ import ContactUsModal from "./components/sections/hometwo/ContactUsModal";
 import Mobileinputform from "./components/sections/modal/Mobileinputform";
 import PrivateRoute from "./PrivateRouter";
 import { UserContext } from "./context/LoginContext";
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('2375e473bcb2d154efecd4607032f614', {debug: true}); 
+mixpanel.track('Sign up');
+
 // const Hometwo from "./components/pages/Hometwo";
 // const Preloader from "./components/layouts/Preloader";
 
@@ -32,6 +36,8 @@ const SubmitNewListing = React.lazy(() =>
   import("./components/pages/Submitnewlisting")
 );
 const Login = React.lazy(() => import("./components/pages/Login"));
+const JoinAsTrainer = React.lazy(() => import("./components/pages/JoinAsTrainer"));
+const LookingForTraining = React.lazy(() => import("./components/pages/LookingForTraining"));
 const OTPtoken = React.lazy(() => import("./components/pages/OTPtoken"));
 const Register = React.lazy(() => import("./components/pages/Register"));
 const RefundsCancellations = React.lazy(() =>
@@ -171,6 +177,8 @@ function App() {
           <Route exact path="/career" component={Career} />
           <Route exact path="/coming-soon" component={Comingsoon} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/join-as-trainer" component={JoinAsTrainer} />
+          <Route exact path="/looking-for-training" component={LookingForTraining} />
           <Route exact path="/otp-token" component={OTPtoken} />
           <Route exact path="/register" component={Register} />
           <Route

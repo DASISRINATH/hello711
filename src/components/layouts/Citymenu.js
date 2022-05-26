@@ -60,7 +60,7 @@ function NavMenu(){
         {/* Menu */}
         <ul className="navbar-nav">
 
-          <li className="menu-item menu-item-has-children" style={{marginTop:"-4px"}}>
+          {/* <li className="menu-item menu-item-has-children" style={{marginTop:"-4px"}}>
             <Select
               placeholder="City"
               value={locations.find(obj => obj.value === selectedLocation)}
@@ -71,7 +71,7 @@ function NavMenu(){
                 IndicatorSeparator: ()=>null
               }}
             />
-          </li>
+          </li> */}
           
           {/* <li className="menu-item menu-item-has-children">
             <Link to="/">Home</Link>
@@ -94,9 +94,9 @@ function NavMenu(){
           {/* <li className="menu-item menu-item-has-children">
             <Link to="/properties" onClick={() => pathName !== 'properties' && updateItemState()}>Buy</Link>
           </li> */}
-          <li className="menu-item menu-item-has-children">
+          {/* <li className="menu-item menu-item-has-children">
             <Link className={`${pathName==="properties" ? "navbar-highlight" : ""}`} to="/properties" onClick={() => pathName !== 'properties' && updateItemState()}>{t('header:options.buy')}</Link>
-          </li>
+          </li> */}
           {/* <li className="menu-item menu-item-has-children">
             <Link className={`${pathName==="rent" ? "navbar-highlight" : ""}`} to="/rent" onClick={() => pathName !== 'rent' && updateItemState()}>{t('header:options.rent')}</Link>
           </li> */}
@@ -107,7 +107,12 @@ function NavMenu(){
           {/* <li className="menu-item menu-item-has-children">
             <Link to="/chat" onClick={() =>updateItemState()}>Chat</Link>
           </li> */}
-
+          <li className="menu-item menu-item-has-children">
+            <Link className={`${pathName==="join-as-trainer" ? "navbar-highlight" : ""}`} to="/join-as-trainer" onClick={() => pathName !== 'join-as-trainer' && updateItemState()}>{t('header:options.become_a_trainer')}</Link>
+          </li>
+          <li className="menu-item menu-item-has-children">
+            <Link className={`${pathName==="looking-for-training" ? "navbar-highlight" : ""}`} to="/looking-for-training" onClick={() => pathName !== 'blog' && updateItemState()}>{t('header:options.looking_for_training')}</Link>
+          </li>
           <li className="menu-item menu-item-has-children">
             <Link className={`${pathName==="blog" ? "navbar-highlight" : ""}`} to="/blog" onClick={() => pathName !== 'blog' && updateItemState()}>{t('header:options.blog')}</Link>
           </li>
@@ -116,9 +121,9 @@ function NavMenu(){
             <Link className={`${pathName==="training" ? "navbar-highlight" : ""}`} to="/training" onClick={() => pathName !== 'training' && updateItemState()}>Training</Link>
           </li> */}
 
-          <li className="menu-item menu-item-has-children">
+          {/* <li className="menu-item menu-item-has-children">
             <a href="" target="_blank"><i className="fab fa-google-play" style={{marginRight:"5px"}}/>  {t('header:options.download_app')}</a>
-          </li>
+          </li> */}
         </ul>
       </Fragment>
 

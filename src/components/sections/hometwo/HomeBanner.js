@@ -17,7 +17,7 @@ class HomeBanner extends Component {
                                 <p className="subtitle">
                                 Join Live and Interactive Online Classes with the best Tutors                      
                                 </p>
-                                <Link to="/listing-map" className="btn-custom">Join Us</Link>
+                                <Link to="/join-as-trainer" className="btn-custom">Join Us</Link>
                             </div>
                         </div>
                         <div className="col-lg-7 mb-lg-30 acr-dots-wrapper acr-single-img-wrapper">

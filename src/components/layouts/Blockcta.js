@@ -10,19 +10,19 @@ const ctablock = [
         id: 1,
         icon: 'sales-agent',
         title: 'Are you Language Trainer?',
-        text: "Search in your City, use map custom filters to find a property as per your need."
+        text: "Having Experience in Language Training? Register yourself as Trainer and get access to all the features of our Platform for free."
     },
     {
         id: 2,
         icon: 'user',
         title: 'Want to learn New Langugage?',
-        text: "Posting your listing by providing images, videos, 3d tours exact google map location along with layout."
+        text: "If you are looking for learn any New Language, you can enroll yourself for the Training Programs by having a Free demo."
     },
     {
         id: 3,
         icon: 'star',
         title: "Explore Language Resources",
-        text: "Find Mobiles available for sale posted by Users."
+        text: "Hello71 helps Students to explore Trainers available for teaching various Languages and schedule and book a Training."
     }
 ]
 
