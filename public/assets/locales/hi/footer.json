@@ -9,10 +9,13 @@
         "menu": "मेन्यू",
         "buy": "खरीद",
         "rent": "किराया",
+        "trainers":"Trainers",
+        "become_trainer":"Join as Trainer",
+        "join_student":"Join as Student",
         "information": "जानकारी",
         "about_us": "हमारे बारे में",
         "contact_us": "संपर्क करें",
-        "propyaar_agent_fb_group": "Hello71 एजेंट FB ग्रुप",
+        "hello71_fb_group": "Hello71 FB ग्रुप",
         "legal": "कानूनी",
         "privacy_policy": "गोपनीयता नीति",
         "cookie_policy": "कूकी नीति",
@@ -45,8 +48,8 @@
             "23": "करीमनगर में नई परियोजनाएं",
             "24": "करीमनगर में कृषि भूमि",
             "25": "करीमनगर में कृषि भूमि",
-            "buy&sell": {
-                "buy&sell": "खरीदना और बेचना",
+            "learn_language": {
+                "learn_language": "खरीदना और बेचना",
                 "1": "प्लॉट्स इन हैदराबाद",
                 "2": "प्लॉट्स इन बैंगलोर",
                 "3": "प्लॉट्स इन चेन्नई",
@@ -54,7 +57,8 @@
                 "5": "बैंगलोर में आवासीय",
                 "6": "चेन्नई में आवासीय"
             },
-            "rent": {
+            "tutors_students": {
+                "tutors_students": "Tutors & Students",
                 "1": "हैदराबाद में अपार्टमेंट",
                 "2": "बेंगलुरू में अपार्टमेंट",
                 "3": "चेन्नई में अपार्टमेंट",

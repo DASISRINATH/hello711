@@ -7,11 +7,12 @@ const About = () => {
 
   useEffect(()=>{
     fetchData();
-  })
+  }, []);
 
   const fetchData = async ()=>{
     let res = await axios.get(`${process.env.REACT_APP_API_URL}abouts/get/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/`);
     setAbout(res.data[0].about_description.split('*'));
+    console.log(res.data[0].about_description.split('*'));
   }
 
   return (

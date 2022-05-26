@@ -64,7 +64,7 @@ function Content() {
         added_user_id:loginuserId,
         status:'all',
       };
-      await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/rappikey/app_list_id/2`, postData)
+      await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/`, postData)
       .then(response => {
         setLoading(false)
         setUserItems(response.data);

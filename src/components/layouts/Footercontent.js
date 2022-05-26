@@ -9,8 +9,8 @@ class Footercontent extends Component {
                     <div className="row">
                         <div className="col-lg-3 col-md-4 col-sm-12 footer-widget">
                             {/* <div className="footer-logo"> */}
-                                {/* <img src={process.env.PUBLIC_URL + "/assets/img/logo-light.png"} alt="propyaar" /> */}
-                                {/* <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="propyaar" /> */}
+                                {/* <img src={process.env.PUBLIC_URL + "/assets/img/logo-light.png"} alt="hello71" /> */}
+                                {/* <img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="Hello71" /> */}
                                 {/* <img src={process.env.PUBLIC_URL + "/assets/img/INDMLogo.png"} alt="Hello71" /> */}
                             {/* </div> */}
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>

@@ -33,7 +33,7 @@ const Content = () => {
                 <div className="container">
                     <div className="section section-title-wrap text-center">
                             <h5 className="custom-primary">Our Ways</h5>
-                            <h2 className="title">Simple & Easy to Learn New Language</h2>
+                            <h2 className="title">Simple & Easy Way to Learn New Language</h2>
                             <p className="subtitle">
                             Hello71 offers list of language study and training programs which are expertly designed to equip Individual Students and Professionals, Corporate.<br /> We provide a big pool of highly qualified language trainers and resources at one place.
                             </p>

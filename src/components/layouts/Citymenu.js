@@ -117,7 +117,7 @@ function NavMenu(){
           </li> */}
 
           <li className="menu-item menu-item-has-children">
-            <a href="https://play.google.com/store/apps/details?id=com.proptech.propyaar" target="_blank"><i className="fab fa-google-play" style={{marginRight:"5px"}}/>  {t('header:options.download_app')}</a>
+            <a href="" target="_blank"><i className="fab fa-google-play" style={{marginRight:"5px"}}/>  {t('header:options.download_app')}</a>
           </li>
         </ul>
       </Fragment>

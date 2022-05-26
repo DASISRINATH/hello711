@@ -3230,7 +3230,7 @@ table img {
 
 /* 6.1. Featured Listings */
 .acr-featured-listings.banner-featured-slider {
-  max-width: 650px;
+  /*max-width: 650px;*/
   margin: 40px 0 0;
 }
 .acr-featured-listings.banner-featured-slider .slick-list {
@@ -3582,7 +3582,7 @@ table img {
   align-items: center;
 }
 .acr-testimonial-author img {
-  width: 80px;
+  width: 45px;
   border-radius: 5px;
   margin-right: 15px;
 }

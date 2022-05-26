@@ -9,10 +9,13 @@
         "menu": "ಮೆನು",
         "buy": "ಖರೀದಿಸಿ",
         "rent": "ಬಾಡಿಗೆ",
+        "trainers":"Trainers",
+        "become_trainer":"Join as Trainer",
+        "join_student":"Join as Student",
         "information": "ಮಾಹಿತಿ",
         "about_us": "ನಮ್ಮ ಬಗ್ಗೆ",
         "contact_us": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
-        "propyaar_agent_fb_group": "Hello71 ಏಜೆಂಟ್ FB ಗುಂಪು",
+        "propyaar_agent_fb_group": "Hello71 FB ಗುಂಪು",
         "legal": "ಕಾನೂನುಬದ್ಧ",
         "privacy_policy": "ಗೌಪ್ಯತಾ ನೀತಿ",
         "cookie_policy": "ಕುಕೀ ನೀತಿ",
@@ -45,8 +48,8 @@
             "23": "ಕರೀಂನಗರದಲ್ಲಿ ಹೊಸ ಯೋಜನೆಗಳು",
             "24": "ಕರೀಂನಗರದಲ್ಲಿ ಕೃಷಿ ಭೂಮಿ",
             "25": "ಕರೀಂನಗರದಲ್ಲಿನ ಕೃಷಿ ಭೂಮಿ",
-            "buy&sell": {
-                "buy&sell": "ಕೊಳ್ಳಿ ಮತ್ತು ಮಾರಿ",
+            "learn_language": {
+                "learn_language": "ಕೊಳ್ಳಿ ಮತ್ತು ಮಾರಿ",
                 "1": "ಹೈದರಾಬಾದ್ನಲ್ಲಿ ಪ್ಲಾಟ್ಗಳು",
                 "2": "ಬೆಂಗಳೂರಿನಲ್ಲಿ ಪ್ಲಾಟ್ಗಳು",
                 "3": "ಚೆನ್ನೈನಲ್ಲಿ ಪ್ಲಾಟ್ಗಳು",
@@ -54,7 +57,8 @@
                 "5": "ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಸತಿ",
                 "6": "ಚೆನ್ನೈನಲ್ಲಿ ವಾಸ"
             },
-            "rent": {
+            "tutors_students": {
+                "tutors_students": "Tutors & Students",
                 "1": "ಹೈದರಾಬಾದ್ನಲ್ಲಿ ಅಪಾರ್ಮೆಂಟ್ಸ್",
                 "2": "ಬೆಂಗಳೂರಿನಲ್ಲಿ ಅಪಾರ್ಮೆಂಟ್ಸ್",
                 "3": "ಚೆನ್ನೈನಲ್ಲಿ ಅಪಾರ್ಮೆಂಟ್ಸ್",

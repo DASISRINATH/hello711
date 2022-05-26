@@ -9,7 +9,7 @@ class Testimonials extends Component {
                 <div className="container">
                     <div className="section-title-wrap section-header">
                         <h5 className="custom-primary">Testimonials</h5>
-                        <h2 className="title">What Are People Saying</h2>
+                        <h2 className="title">Recent Reviews</h2>
                     </div>
                     <div className="row">
                         {/* Testimonail item start */}

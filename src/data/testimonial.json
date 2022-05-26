@@ -1,28 +1,28 @@
 [
     {
         "id": 1,
-        "title": "Perfect service",
-        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
-        "author": "John Mishlen",
-        "post": "Executive CEO at company",
+        "title": "Well Experienced Trainers",
+        "comment": "I love it!! very easy to use the application. I only have one tutor at the moment, and they are very helpful.        ",
+        "author": "Nayun Choi",
+        "post": "Hyderabad",
         "authorimg": "assets/img/people/1.jpg",
         "rating": 5
     },
     {
         "id": 2,
-        "title": "Competitive prices",
-        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
-        "author": "Moe Sondi",
-        "post": "Executive CEO at company",
+        "title": "Affordable Prices",
+        "comment": "Good online Mandarin classes that I got learn with reasonable prices.Trainers are well experienced",
+        "author": "Ramesh Parek",
+        "post": "Bengaluru",
         "authorimg": "assets/img/people/2.jpg",
         "rating": 4
     },
     {
         "id": 3,
-        "title": "Great agents",
-        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
-        "author": "Mandy Floss",
-        "post": "Executive CEO at company",
+        "title": "Good Platform to Learn",
+        "comment": "It was good to contact with the Trainers, support was available very soon.Good platform to learn new languages.",
+        "author": "Pavani TL",
+        "post": "Chennai",
         "authorimg": "assets/img/people/3.jpg",
         "rating": 4
     }

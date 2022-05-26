@@ -125,13 +125,13 @@ const Whyus = () => {
     const changeBuy = (val1,val2) => {
         selectLocation(val1);
         changeCat(val2);
-        history.push("/properties");
+        history.push("/");
     }
 
     const changeRent = (val1,val2) => {
         selectLocation(val1);
         selectsubCat(val2);
-        history.push("/rent");
+        history.push("/");
     }       
     return (
         <div className="row">
@@ -142,51 +142,51 @@ const Whyus = () => {
             ))} */}
 
             {/* <div className="midFooter-op col-sm-2 row">
-                <div className="seolist  col-sm-12">{t('footer:middle.seolist.buy&sell.buy&sell')}</div>
+                <div className="seolist  col-sm-12">{t('footer:middle.seolist.learn_language.learn_language')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loca7b66748e03d457e976ca63a50e1bde0","catfa070dd5cc2a2c9c6196159f85480ff7");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.1')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.1')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loc32db8931aaf39e3dfb5c388799109d5b","catfa070dd5cc2a2c9c6196159f85480ff7");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.2')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.2')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loc247387cc3640d1a88f3d9342d216dc13","catfa070dd5cc2a2c9c6196159f85480ff7");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.3')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.3')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loca7b66748e03d457e976ca63a50e1bde0","cat445639833db3eff8b6cdb5510aa39faa");
-                }} className=" col-sm-12">{t('footer:middle.seolist.buy&sell.4')}</div>
+                }} className=" col-sm-12">{t('footer:middle.seolist.learn_language.4')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loc32db8931aaf39e3dfb5c388799109d5b","cat445639833db3eff8b6cdb5510aa39faa");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.5')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.5')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loc247387cc3640d1a88f3d9342d216dc13","cat445639833db3eff8b6cdb5510aa39faa");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.6')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.6')}</div>
             </div> */}
             <div className="col-sm-6 row">
-                <div className="seolist  col-sm-12">{t('footer:middle.seolist.buy&sell.buy&sell')}</div>
+                <div className="seolist  col-sm-12">{t('footer:middle.seolist.learn_language.learn_language')}</div>
                 <div style={{margin: "0"}} className="midFooter-op col-sm-6 row">
                 <div onClick={() => {
                     changeBuy("itm_loca7b66748e03d457e976ca63a50e1bde0","catfa070dd5cc2a2c9c6196159f85480ff7");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.1')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.1')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loc32db8931aaf39e3dfb5c388799109d5b","catfa070dd5cc2a2c9c6196159f85480ff7");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.2')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.2')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loc247387cc3640d1a88f3d9342d216dc13","catfa070dd5cc2a2c9c6196159f85480ff7");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.3')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.3')}</div>
                 
                 </div>
 
                 <div style={{margin: "0"}} className="midFooter-op col-sm-6 row">
                 <div onClick={() => {
                     changeBuy("itm_loca7b66748e03d457e976ca63a50e1bde0","cat445639833db3eff8b6cdb5510aa39faa");
-                }} className=" col-sm-12">{t('footer:middle.seolist.buy&sell.4')}</div>
+                }} className=" col-sm-12">{t('footer:middle.seolist.learn_language.4')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loc32db8931aaf39e3dfb5c388799109d5b","cat445639833db3eff8b6cdb5510aa39faa");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.5')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.5')}</div>
                 <div onClick={() => {
                     changeBuy("itm_loc247387cc3640d1a88f3d9342d216dc13","cat445639833db3eff8b6cdb5510aa39faa");
-                }}  className=" col-sm-12">{t('footer:middle.seolist.buy&sell.6')}</div>
+                }}  className=" col-sm-12">{t('footer:middle.seolist.learn_language.6')}</div>
                 </div>
                 {/* <div style={{margin: "0"}} className="midFooter-op col-sm-3 row">
                     <div onClick={() => {
@@ -202,29 +202,29 @@ const Whyus = () => {
                 </div> */}
             </div>
             <div className="col-sm-6 row">
-                <div style={{marginLeft: "15px"}} className="seolist  col-sm-12">{t('footer:middle.rent')}</div>
+                <div style={{marginLeft: "15px"}} className="seolist  col-sm-12">{t('footer:middle.seolist.tutors_students.tutors_students')}</div>
                 <div style={{margin: "0"}} className="midFooter-op col-sm-6 row">
                 <div onClick={() => {
                         changeRent("itm_loca7b66748e03d457e976ca63a50e1bde0","subcatca64dc358e7737518a68ec88f7e3f99a");
-                    }} className=" col-sm-12">{t('footer:middle.seolist.rent.4')}</div>
+                    }} className=" col-sm-12">{t('footer:middle.seolist.tutors_students.4')}</div>
                     <div onClick={() => {
                         changeRent("itm_loc32db8931aaf39e3dfb5c388799109d5b","subcatca64dc358e7737518a68ec88f7e3f99a");
-                    }} className=" col-sm-12">{t('footer:middle.seolist.rent.5')}</div>
+                    }} className=" col-sm-12">{t('footer:middle.seolist.tutors_students.5')}</div>
                     <div onClick={() => {
                         changeRent("itm_loc247387cc3640d1a88f3d9342d216dc13","subcatca64dc358e7737518a68ec88f7e3f99a");
-                    }} className=" col-sm-12">{t('footer:middle.seolist.rent.6')}</div>
+                    }} className=" col-sm-12">{t('footer:middle.seolist.tutors_students.6')}</div>
                     
                 </div>
                 <div style={{margin: "0"}} className="midFooter-op col-sm-6 row">
                 <div onClick={() => {
                         changeRent("itm_loca7b66748e03d457e976ca63a50e1bde0","subcat83e59467ed17dd3c8ce2b22fc1876e2c");
-                    }} className=" col-sm-12">{t('footer:middle.seolist.rent.7')}</div>
+                    }} className=" col-sm-12">{t('footer:middle.seolist.tutors_students.7')}</div>
                     <div onClick={() => {
                         changeRent("itm_loc32db8931aaf39e3dfb5c388799109d5b","subcat83e59467ed17dd3c8ce2b22fc1876e2c");
-                    }} className=" col-sm-12">{t('footer:middle.seolist.rent.8')}</div>
+                    }} className=" col-sm-12">{t('footer:middle.seolist.tutors_students.8')}</div>
                     <div onClick={() => {
                         changeRent("itm_loc247387cc3640d1a88f3d9342d216dc13","subcat83e59467ed17dd3c8ce2b22fc1876e2c");
-                    }} className=" col-sm-12">{t('footer:middle.seolist.rent.9')}</div>
+                    }} className=" col-sm-12">{t('footer:middle.seolist.tutors_students.9')}</div>
                 </div>
                 {/* <div style={{margin: "0"}} className="midFooter-op col-sm-3 row">
                 <div onClick={() => {

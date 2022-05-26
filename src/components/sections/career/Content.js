@@ -47,7 +47,7 @@ const Content = () => {
 
     return (
         <div className="career_section">
-            <img src={process.env.PUBLIC_URL + "/assets/img/banner/career_banner.jpeg"} alt="career" />
+            <img src={process.env.PUBLIC_URL + "/assets/img/banner/career-banner.jpeg"} alt="career" />
 
             <div className="container my-3">
                 <h3 className="container_title">Why Join Hello71?</h3> 

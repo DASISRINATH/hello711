@@ -125,7 +125,7 @@ class ContentProperties extends Component {
             sub_cat_id: this.props.itemData.sub_category.id,
             status: 1
         };
-        axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/10/offset/0/`, postData)
+        axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/10/offset/0/app_list_id/app_c2384a045194a4e3f86572390edb6372`, postData)
             .then(res => {this.setState({similarProperties: res.data});console.log(res.data)});
 
 
@@ -284,7 +284,7 @@ class ContentProperties extends Component {
                     <div className="container">
                     <div style={{position: "relative"}} className="mb-30 Itemd__title">
                             <span className="fs-15r">Overview</span>
-                            <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Hey!%20I%20found%20a%20Listing%20:%20https://risee.in/properties/${itemData.id}%20in%20INDMarketplace%20website`}} target="_blank">
+                            <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Hey!%20I%20found%20a%20Listing%20:%20https://risee.in/properties/${itemData.id}%20in%20Hello71%20website`}} target="_blank">
                                               <div style={{height: "25px",padding: "0 5px",fontSize: "0.8rem"}} className="listing-whtapp-btn">
                                                   <WhatsAppIcon style={{width: "1.2rem",height: "1.2rem"}} /> 
                                                   <span>Share</span>

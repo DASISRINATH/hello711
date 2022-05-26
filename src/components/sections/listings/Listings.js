@@ -757,7 +757,7 @@ const Content = (props) => {
                          }
                          
                           <div style={{position: "relative"}} className="acr-listing-icons">
-                            {/* <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Hey!%20I%20found%20a%20Listing%20:%20https://propyaar.com${item.cat_id === "cat445639833db3eff8b6cdb5510aa39faa" ? "/rent/"+item.id : (
+                            {/* <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Hey!%20I%20found%20a%20Listing%20:%20https://hello71.com${item.cat_id === "cat445639833db3eff8b6cdb5510aa39faa" ? "/rent/"+item.id : (
                                           item.cat_id === "catfa070dd5cc2a2c9c6196159f85480ff7" ? "/properties/"+item.id : (
                                               "/projects/"+item.id
                                           )
@@ -773,7 +773,7 @@ const Content = (props) => {
                             {/* <div className="listing-facebook-btn">
                               <ShareOutlinedIcon />
                               <FacebookShareButton
-                                url={"https://propyaar.com/"+window.location.pathname.split('/')[1]+"/"+item.id}
+                                url={"https://hello71.com/"+window.location.pathname.split('/')[1]+"/"+item.id}
                                 quote={item.title}
                                 hashtag={"#realestate"}
                               >
@@ -799,14 +799,14 @@ const Content = (props) => {
 
                               <div className="listing-facebook-btn">
                                 <FacebookShareButton
-                                  url={"https://propyaar.com/"+window.location.pathname.split('/')[1]+"/"+item.id}
+                                  url={"https://hello71.com/"+window.location.pathname.split('/')[1]+"/"+item.id}
                                   quote={item.title}
                                   hashtag={"#realestate"}
                                 >
                                   <FacebookIcon /> 
                                   </FacebookShareButton>
                               </div>
-                              <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Hey!%20I%20found%20a%20Listing%20:%20https://propyaar.com${item.cat_id === "cat445639833db3eff8b6cdb5510aa39faa" ? "/rent/"+item.id : (
+                              <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Hey!%20I%20found%20a%20Listing%20:%20https://hello71.com${item.cat_id === "cat445639833db3eff8b6cdb5510aa39faa" ? "/rent/"+item.id : (
                                    item.cat_id === "catfa070dd5cc2a2c9c6196159f85480ff7" ? "/properties/"+item.id : (
                                        "/projects/"+item.id
                                    )

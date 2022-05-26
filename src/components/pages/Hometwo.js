@@ -10,6 +10,8 @@ import Blockcta from '../layouts/Blockcta';
 import InfoSection from '../sections/hometwo/InfoSection';
 import Counter from '../sections/hometwo/Counter';
 import Services from './Servicesdetails';
+import TutorListings from './TutorListings';
+
 class Hometwo extends Component {
     render() {
         return (
@@ -32,11 +34,12 @@ class Hometwo extends Component {
                 <div className="section section-padding pt-2">   
                    <Blockcta/>
                 </div>
-               
+                
                 <InfoSection/>
                 <Services/>
                 {/* <Counter/> */}
-                <Content/>
+                <TutorListings/>
+                {/* <Content/> */}
                 <Testimonials />
                 <Footer/>
             </Fragment>

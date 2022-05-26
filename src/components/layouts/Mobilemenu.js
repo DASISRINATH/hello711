@@ -172,9 +172,9 @@ const Mobilemenu = () => {
 
                     {/* Social Media Start */}
                     <li className="menu-section-title">Get Social</li>
-                    <li className="menu-item"> <Link to="https://www.facebook.com/propyaar/" target="_blank"> <i className="flaticon-facebook" />Facebook</Link> </li>
-                    <li className="menu-item"> <Link to="https://www.instagram.com/propyaar/" target="_blank"> <i className="flaticon-instagram"/> Instagram </Link> </li>
-                    <li className="menu-item"> <Link to="https://twitter.com/propyaar" target="_blank"> <i className="flaticon-twitter" /> Twitter </Link> </li>
+                    <li className="menu-item"> <Link to="https://www.facebook.com/hello71learn/" target="_blank"> <i className="flaticon-facebook" />Facebook</Link> </li>
+                    <li className="menu-item"> <Link to="https://www.instagram.com/hello71/" target="_blank"> <i className="flaticon-instagram"/> Instagram </Link> </li>
+                    <li className="menu-item"> <Link to="https://twitter.com/hello71" target="_blank"> <i className="flaticon-twitter" /> Twitter </Link> </li>
                     <li className="menu-item"> <Link to="https://www.youtube.com/channel/UC6hj6GKbSTlH0EKEBh1Vu_A" target="_blank"> <i className="fab fa-youtube" /> Yotube </Link> </li>
                     {/* Social Media End */}
 
