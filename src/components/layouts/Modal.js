@@ -60,7 +60,16 @@ const Modalbox = (props) => {
           <i class={props.icon} style={{ fontSize: "15px" }}></i>
           {props.btnText}
         </Link>
-      ) : (
+      ) : props.btnText ? (
+        <Link
+          className="px-4 py-1"
+          onClick={() => setOpen(true)}
+          style={{ fontSize: "15px", color: "#424762" }}
+        >
+          <i class={props.icon} style={{ fontSize: "15px" }}></i>
+          {props.btnText}
+        </Link>
+      ) :(
         <Link
           className={`${
             props.mb_view ? "login-mb-view" : ""

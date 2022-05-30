@@ -106,7 +106,7 @@ const Content = () => {
                     ))} */}
                     </div>
                     <div class="pt-5 text-center">
-                        <Link to="/listing-map" className="btn-custom">Browse Listings</Link>
+                        <Link to="/" className="btn-custom">Browse Trainers</Link>
                     </div>
                 </div>
                 

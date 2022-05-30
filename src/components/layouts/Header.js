@@ -313,7 +313,7 @@ export default function Header(props) {
                                 } */}
                 {isLoggedIn && (
                   <li>
-                    <Button class="notification-icon-button">
+                    {/* <Button class="notification-icon-button">
                       <Link to="/chat" style={{ color: "black" }}>
                         <span class="">
                           <i
@@ -322,7 +322,7 @@ export default function Header(props) {
                           ></i>
                         </span>
                       </Link>
-                    </Button>
+                    </Button> */}
                   </li>
                 )}
                 {/* <li>
@@ -571,7 +571,7 @@ export default function Header(props) {
                                 <span> {t("header:profile.myprofile")}</span>
                               </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as={Link} to="/profile-listings">
+                            {/* <Dropdown.Item as={Link} to="/profile-listings">
                               <Link
                                 to="/profile-listings"
                                 style={{ fontSize: "15px", color: "#424762" }}
@@ -582,7 +582,7 @@ export default function Header(props) {
                                 ></i>
                                 {t("header:profile.mylistings")}
                               </Link>
-                            </Dropdown.Item>
+                            </Dropdown.Item> */}
                             {/* <Dropdown.Item as={Link} to="/profile-saved-listings"><Link to="/profile-saved-listings" style={{fontSize:'15px', color:'#424762'}}><i class="far fa-heart pr-2" style={{fontSize:'18px',}} ></i> My Favorites</Link></Dropdown.Item> */}
                             {/* <Dropdown.Item href="/submit-listing"><Link to="/submit-listing" style={{fontSize:'15px', color:'#424762'}}><i class="fab fa-telegram-plane pr-2" style={{fontSize:'18px',}} ></i> Submit Listing</Link></Dropdown.Item> */}
                             <Dropdown.Item

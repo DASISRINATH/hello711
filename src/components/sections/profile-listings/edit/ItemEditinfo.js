@@ -372,9 +372,9 @@ const Itemdatamodal = (props) => {
                         <label> Listed By</label>
                         <select className="form-control" name="type"  onChange={e =>setListedby(e.target.value)}>
                             <option value="">Select Listed By</option>
-                            {listedby === 'Owner' ? (<option value="Owner" selected>Owner</option>): (<option value="Owner">Owner</option>)} 
-                            {listedby === 'Dealer' ? (<option value="Dealer" selected>Dealer</option>): (<option value="Dealer">Dealer</option>)} 
-                            {listedby === 'Builder' ? (<option value="Builder" selected>Builder</option>): (<option value="Builder">Builder</option>)} 
+                            {listedby === 'Dealer' ? (<option value="Dealer" selected>Student</option>): (<option value="Dealer">Student</option>)} 
+                            {listedby === 'Owner' ? (<option value="Owner" selected>Trainer</option>): (<option value="Owner">Trainer</option>)} 
+                            {listedby === 'Builder' ? (<option value="Builder" selected>Organisation</option>): (<option value="Builder">Organisation</option>)} 
                         </select>
                     </div>
 

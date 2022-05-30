@@ -1043,9 +1043,9 @@ function Content(props) {
                     onChange={(e) => setListedby(e.target.value)}
                   >
                     <option value="">Select Listed By</option>
-                    <option value="Owner">Owner</option>
-                    <option value="Dealer">Dealer</option>
-                    <option value="Builder">Builder</option>
+                    <option value="Dealer">Student</option>
+                    <option value="Owner">Trainer</option>
+                    <option value="Builder">Organisation</option>
                   </select>
                 </div>
               </div>

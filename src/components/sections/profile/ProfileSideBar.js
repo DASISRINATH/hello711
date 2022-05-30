@@ -83,8 +83,8 @@ const ProfileSidebar = (props)=>{
                         </div>
                         <ul className="myprofile-options">
                             <li> <Link className={props.path==="profile" ? "active": ""} to="/myprofile"><i className="fas fa-user" aria-hidden="true"></i> Edit Profile</Link> </li>
-                            <li> <Link className={props.path==="listings" ? "active": ""} to="/profile-listings"><i className="fas fa-list" aria-hidden="true"></i> My Listings</Link> </li>
-                            <li> <Link className={props.path==="saved-listings" ? "active": ""} to="/profile-saved-listings"><i className="fas fa-heart" aria-hidden="true"></i> Favorite Listings</Link> </li>
+                            {/* <li> <Link className={props.path==="listings" ? "active": ""} to="/profile-listings"><i className="fas fa-list" aria-hidden="true"></i> My Listings</Link> </li> */}
+                            {/* <li> <Link className={props.path==="saved-listings" ? "active": ""} to="/profile-saved-listings"><i className="fas fa-heart" aria-hidden="true"></i> Favorite Listings</Link> </li> */}
                         </ul>
                     </div>
                 </div>
