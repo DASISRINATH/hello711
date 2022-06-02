@@ -92,6 +92,7 @@ const Footer = () => {
                                 {/* <li> <Link to="#"> <i className="fab fa-pinterest-p" /> </Link> </li> */}
                                 {/* <li> <a href="https://www.youtube.com/channel/UC6hj6GKbSTlH0EKEBh1Vu_A" target="_blank"> <i className="fab fa-youtube" /> </a> </li> */}
                                 <li> <a href="https://twitter.com/hello71"> <i className="fab fa-twitter" target="_blank" /> </a> </li>
+                                <li> <a href="https://linkedin.com/hello71"> <i className="fab fa-linkedin" target="_blank" /> </a> </li>
                             </ul>
                         </div>
                     </div>
