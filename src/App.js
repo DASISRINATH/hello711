@@ -5,6 +5,7 @@ import Mobileinputform from "./components/sections/modal/Mobileinputform";
 import PrivateRoute from "./PrivateRouter";
 import { UserContext } from "./context/LoginContext";
 import mixpanel from 'mixpanel-browser';
+import TutorTemp from "./components/pages/TutorTemp";
 mixpanel.init('2375e473bcb2d154efecd4607032f614', {debug: true}); 
 mixpanel.track('Sign up');
 
@@ -196,8 +197,13 @@ function App() {
           <Route exact path="/listing-map" component={Listingmap} />
           <Route
             exact
-            path="/listing-details-v1"
+            path="/listing-details-v1/:peopleId"
             component={Listingdetailsone}
+          />
+          <Route
+            exact
+            path="/trainers/:peopleId"
+            component={TutorTemp}
           />
           <Route
             exact

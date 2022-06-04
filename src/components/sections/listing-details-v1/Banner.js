@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
+import listing from '../../../data/listings.json';
+import { Link ,useParams, withRouter } from 'react-router-dom';
+
 
 const bannerpost = [
     {
@@ -12,6 +14,11 @@ const bannerpost = [
 ]
 
 class Banner extends Component {
+
+    state={
+        person:{}
+    }
+    
     constructor(props) {
         super(props);
         this.next = this.next.bind(this);
@@ -22,6 +29,13 @@ class Banner extends Component {
     }
     previous() {
         this.slider.slickPrev();
+    }
+    componentDidMount(){
+        const { peopleId } = this.props.match.params;
+
+        const people = listing.find((product) => product.id === parseInt(peopleId) )
+
+        this.setState({person: people})
     }
     render() {
         const settings = {
@@ -49,7 +63,7 @@ class Banner extends Component {
                             <div className="acr-listing-section-body">
                                 <div className="acr-listing-section-price">
                                     <span>For Sale</span>
-                                    <h3>$852,000</h3>
+                                    <h3>${this.state.person.monthlyprice}</h3>
                                     <span>Est. Mortgage</span>
                                     <p>$1,300/mo</p>
                                 </div>
@@ -57,7 +71,7 @@ class Banner extends Component {
                         </div>
                         <div className="acr-listing-section">
                             <div className="acr-listing-section-body">
-                                <h4> Iris Watson, Frederick Nebraska 20620</h4>
+                                <h4> {this.state.person.authorname}</h4>
                                 <div className="acr-listing-icons">
                                     <div className="acr-listing-icon">
                                         <i className="flaticon-bedroom" />
@@ -135,5 +149,6 @@ class Banner extends Component {
         );
     }
 }
+const ListingwrapperWithRouter = withRouter(Banner)
 
-export default Banner;
+export default ListingwrapperWithRouter;

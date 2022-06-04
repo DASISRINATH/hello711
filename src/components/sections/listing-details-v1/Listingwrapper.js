@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link ,useParams, withRouter } from 'react-router-dom';
 import { OverlayTrigger, Tooltip, Dropdown, NavLink, Accordion, Card } from 'react-bootstrap';
 import listing from '../../../data/listings.json';
 import Calculator from '../../layouts/Calculator';
@@ -46,11 +46,12 @@ const areatip = (
 );
 
 
-class Listingwrapper extends Component {
+class Listingwrapper extends Component { 
     constructor(props) {
         super(props)
         this.state = {
-            showmore: false
+            showmore: false,
+            person:{}
         }
         this.showmoretoggle = this.showmoretoggle.bind(this)
     }
@@ -60,6 +61,13 @@ class Listingwrapper extends Component {
         })
     }
     componentDidMount() {
+
+        const { peopleId } = this.props.match.params;
+
+        const people = listing.find((product) => product.id === parseInt(peopleId) )
+        
+        this.setState({person: people})
+
         function popup() {
             $('.gallery-thumb').magnificPopup({
                 type: 'image',
@@ -542,7 +550,7 @@ class Listingwrapper extends Component {
                                     <div className="media sidebar-author listing-agent">
                                         <Link to="#"><img src={process.env.PUBLIC_URL + "/assets/img/people/1.jpg"} alt="agent" /></Link>
                                         <div className="media-body">
-                                            <h6> <Link to="#">Freddy Burben</Link> </h6>
+                                             <h6> <Link to="#">{this.state.person.authorname}</Link> </h6>
                                             <span>Company Agent</span>
                                         </div>
                                         <Dropdown className="options-dropdown">
@@ -602,4 +610,15 @@ class Listingwrapper extends Component {
     }
 }
 
-export default Listingwrapper;
+
+// import { withRouter } from "react-router";
+//export default withRouter(TaskDetail);
+// export default withParams(TaskDetail);
+
+// function withParams(Component) {
+//     return props => <Component {...props} params={useParams()} />;
+//   }
+
+const ListingwrapperWithRouter = withRouter(Listingwrapper)
+export default ListingwrapperWithRouter
+// export default Listingwrapper;
