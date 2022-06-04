@@ -175,10 +175,10 @@ class Menu extends Component {
                     {" "}
                     <Link to="/profile">My Account</Link>{" "}
                   </li>
-                  <li className="menu-item">
+                  {/* <li className="menu-item">
                     {" "}
                     <Link to="/profile-listings">My Listings</Link>{" "}
-                  </li>
+                  </li> */}
                   <li className="menu-item">
                     {" "}
                     <Link to="/profile-saved-listings">

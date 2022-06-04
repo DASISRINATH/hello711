@@ -53,7 +53,7 @@ const Content = (props) => {
     };
 
     console.log(postData)
-    await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/10/offset/${offset}/rappikey/app_list_id/2`, postData)
+    await axios.post(`${process.env.REACT_APP_API_URL}items/search/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/limit/10/offset/${offset}/`, postData)
     .then(response => updateItemsState(response.data))
     .catch(error => {
         setLoading(false)
@@ -160,7 +160,7 @@ const Content = (props) => {
                                         </div>
                                     </Link> */}
 
-                                    <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Users%20Profile%20:%20https://propyaar.in/${props.agent.unique_link}`}} target="_blank">
+                                    <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Users%20Profile%20:%20https://hello71.in/${props.agent.unique_link}`}} target="_blank">
                                         <div className="listing-header-btn shr-profile">
                                             <WhatsAppIcon /> <span>Share Profile</span>
                                         </div>
@@ -230,11 +230,11 @@ const Content = (props) => {
                                                   
                                               </h5>
                                               <div style={{position: "relative"}}>
-                                                <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Hey!%20I%20found%20a%20Listing%20:%20https://propyaar.in${item.cat_id === "cat445639833db3eff8b6cdb5510aa39faa" ? "/rent/"+item.id : (
+                                                <Link to={{pathname: `https://api.whatsapp.com/send?phone=&text=Hey!%20I%20found%20a%20Listing%20:%20https://hello71.in${item.cat_id === "cat445639833db3eff8b6cdb5510aa39faa" ? "/rent/"+item.id : (
                                                     item.cat_id === "catfa070dd5cc2a2c9c6196159f85480ff7" ? "/properties/"+item.id : (
                                                         "/projects/"+item.id
                                                     )
-                                                )}%20in%20INDMarketplace%20website`}} target="_blank">
+                                                )}%20in%20Hello71%20website`}} target="_blank">
                                                     <div className="listing-whtapp-btn">
                                                         <WhatsAppIcon /> 
                                                         <span>Share</span>

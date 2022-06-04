@@ -21,7 +21,7 @@ class InfoSection extends Component {
                                 <p className="subtitle">
                                 If you're looking for Foreign language courses online, then Hello71 is the best choice.
                                 </p>
-                                <Link to="/listing-map" className="btn-custom">Browse Listings</Link>
+                                <Link to="/" className="btn-custom">Browse Trainers</Link>
                             </div>
                         </div>
                        

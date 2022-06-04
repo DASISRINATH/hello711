@@ -332,9 +332,9 @@ const Editprofile = (props) => {
                                 onChange={e =>setListing_by(e.target.value)}
                                 >
                                     <option value=""  >Select You are</option>
-                                    {listing_by == 'Dealer' ? (<option value="Dealer" selected>Dealer</option>): (<option value="Dealer">Dealer</option>)}
-                                    {listing_by == 'Owner' ? (<option value="Owner" selected>Owner</option>): (<option value="Owner">Owner</option>)}
-                                    {listing_by == 'Builder' ? (<option value="Builder" selected>Builder</option>): (<option value="Builder">Builder</option>)}
+                                    {listing_by == 'Dealer' ? (<option value="Dealer" selected>Student</option>): (<option value="Dealer">Student</option>)}
+                                    {listing_by == 'Owner' ? (<option value="Owner" selected>Trainer</option>): (<option value="Owner">Trainer</option>)}
+                                    {listing_by == 'Builder' ? (<option value="Builder" selected>Organisation</option>): (<option value="Builder">Organisation</option>)}
                                 </select>
                             </div>
                         </div>

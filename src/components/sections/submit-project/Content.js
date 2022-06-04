@@ -434,9 +434,9 @@ function Content(props) {
                                                 <label>Listed By<i class="mandatory fa fa-asterisk" aria-hidden="true"></i></label>
                                                 <select className="form-control" name="type"  onChange={e =>setListedby(e.target.value)}>
                                                     <option value="">Select Listed By</option>
-                                                    <option value="Owner">Owner</option>
-                                                    <option value="Dealer">Dealer</option>
-                                                    <option value="Builder">Builder</option>
+                                                    <option value="Dealer">Student</option>
+                                                    <option value="Owner">Trainer</option>
+                                                    <option value="Builder">Organisation</option>
                                                 </select>
                                             </div>
 

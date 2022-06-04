@@ -43,12 +43,14 @@ class Banner extends Component {
                                         <div className="acr-featured-listing">
                                             <div className="featured-listing-thumb">
                                                 <Link to={`/trainers/${item.id}`}><img src={process.env.PUBLIC_URL + "/" + item.gridimg} alt="listing" /></Link>
+                                                {/* <Link to=""><img src={process.env.PUBLIC_URL + "/" + item.gridimg} alt="listing" /></Link> */}
                                                 <div className="featured-listing-controls">
                                                     {item.star === true ? <span>Featured</span> : ''}
                                                     <Link to="#"><i className="far fa-heart" /></Link>
                                                 </div>
                                             </div>
                                             <div className="featured-listing-content">
+                                              <span>{item.authorname}</span>
                                                 <h6>{new Intl.NumberFormat().format((item.monthlyprice).toFixed(2))}₹/hr</h6>
                                                 <div className="featured-listing-meta">
                                                     <p>{item.title}</p>

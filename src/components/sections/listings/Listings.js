@@ -562,7 +562,7 @@ const Content = (props) => {
           {isLoggedIn && loginuserId !== null &&  
             <div className="scrollable-tag scrollable-list-view" style={itemInfodiv===true?{display: "none"}:null}>
               <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "all" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("all")}>{t('listings:all')}</button>
-              <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "my-listing" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("my-listing")}>{t('listings:my_listing')}</button>
+              {/* <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "my-listing" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("my-listing")}>{t('listings:my_listing')}</button> */}
               <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "favourites" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("favourites")}>{t('listings:favourites')}</button>
               <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className="tag">{t('listings:recommended')}</button>
               {/* <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "expired" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("expired")}>Expired</button>
@@ -858,7 +858,7 @@ const Content = (props) => {
             {!listlayoutonly && isLoggedIn && loginuserId !== null &&  
             <div className="scrollable-tag tag-map" style={itemInfodiv===true?{display: "none"}:null}>
             <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "all" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("all")}>{t('listings:all')}</button>
-              <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "my-listing" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("my-listing")}>{t('listings:my_listing')}</button>
+              {/* <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "my-listing" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("my-listing")}>{t('listings:my_listing')}</button> */}
               <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "favourites" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("favourites")}>{t('listings:favourites')}</button>
               <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className="tag">{t('listings:recommended')}</button>
               {/* <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "expired" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("expired")}>Expired</button>
@@ -888,7 +888,7 @@ const Content = (props) => {
             {!listlayoutonly && isLoggedIn && loginuserId !== null &&  
             <div className="scrollable-tag tag-map" style={itemInfodiv===true?{display: "none"}:null}>
             <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "all" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("all")}>{t('listings:all')}</button>
-              <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "my-listing" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("my-listing")}>{t('listings:my_listing')}</button>
+              {/* <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "my-listing" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("my-listing")}>{t('listings:my_listing')}</button> */}
               <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "favourites" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("favourites")}>{t('listings:favourites')}</button>
               <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className="tag">{t('listings:recommended')}</button>
               {/* <button style={{padding: "5px 10px",display: "flex",alignItems: "center"}} className={tag === "expired" ? "tag tag-active" : "tag"} onClick={()=> secondFilter("expired")}>Expired</button>

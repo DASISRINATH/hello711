@@ -45,11 +45,11 @@ const Content = ()=>{
                         <h5 className="font-weight-700 pull-left text-uppercase" style={{display:"inline"}}>Basic Information</h5>
                         {/* <Link to={"./"} className="site-button right-arrow button-sm float-right">Back</Link> */}
                         {/* <Link to={"./"} className="btn btn-sm btn-success float-right">{approvedCount}</Link> */}
-                        {approvedCount == 0 ? 
+                        {/* {approvedCount == 0 ? 
                           <Link onClick={()=>setOpen(true)} className="btn-custom btn-sm float-right">Add New Listing</Link> 
                           :
                           <Link to={"/"+loginuserData.unique_link} className="btn-custom btn-sm float-right">Public Profile View</Link>
-                        }
+                        } */}
                         {/* <button onClick={handleClick} className="public-profile-button px-3 py-1">Public Profile View</button> */}
                       </div>
                       <Formsection />

@@ -235,9 +235,9 @@ function Content(props) {
                         <label> Listed By</label>
                         <select className="form-control" name="type"  onChange={e =>setListedby(e.target.value)}>
                             <option value="">Select Listed By</option>
-                            <option value="Owner">Owner</option>
-                            <option value="Dealer">Dealer</option>
-                            <option value="Builder">Builder</option>
+                            <option value="Owner">Student</option>
+                            <option value="Dealer">Trainer</option>
+                            <option value="Builder">Organisation</option>
                         </select>
                     </div>
                     {/*
