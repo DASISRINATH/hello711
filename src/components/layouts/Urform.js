@@ -5,6 +5,8 @@ import './css/modalstyle.css';
 import 'react-responsive-modal/styles.css';
 import { Link } from 'react-router-dom';
 
+import MobileInputform2 from './Mobileinputform2'
+
 const Form = (props) => {
 
     const {isLoggedIn,
@@ -46,7 +48,10 @@ const Form = (props) => {
 
   return (
     <>
-        <div>
+
+        <MobileInputform2/>
+
+        {/* <div>
             <p className="modaltitle">Please Enter Your Details</p>
             {successMsg ? (<h5 className="text-success">User Profile Successfully Updated.</h5>) : null}
             {errormsg ? (<h5 className="text-danger">Operation Failed try Again.</h5>) : null}
@@ -63,7 +68,7 @@ const Form = (props) => {
                         <option value="Warangal">Warangal</option>
                         <option value="karimnagar">karimnagar</option>
                     </select> */}
-                    <label>City</label>
+                    {/* <label>City</label>
                     <input type="text" className="form-control" value={city} onChange={e =>setCity(e.target.value)} placeholder="Your City" name="city" required/>
                 </div>
                 <div className="form-group">
@@ -79,8 +84,8 @@ const Form = (props) => {
                   <button type="submit"  className="btn modalbtn" ><span style={{color:'aliceblue',fontWeight:'800'}}>Save</span></button>
                 </div>
             </form>
-            {loading ? (<h5 className="text-info">Loading...</h5>) : null}
-        </div>
+            {loading ? (<h5 className="text-info">Loading...</h5>) : null} */}
+        {/* </div>  */}
     </>
   );
 };

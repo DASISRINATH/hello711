@@ -45,7 +45,7 @@ const TutorTemp = () => {
             <div className="p-4">
               <div className="row">
                 <div className="col-lg-3">
-                  <img src={IND} alt="#" className="" />
+                  <img src={process.env.PUBLIC_URL + "/" + tutorInfo.gridimg} alt="listing" />
                 </div>
                 <div className="col-lg-7 row ">
                   <h4 className="col-12 pt-3">
