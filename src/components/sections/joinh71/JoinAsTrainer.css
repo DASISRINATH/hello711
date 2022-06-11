@@ -1,0 +1,15 @@
+.banner2{
+    background-image: url('../../../assets/img/demo/h71-banner.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:contain;
+    box-sizing: border-box;
+    object-fit: contain;
+    padding-top: 22rem;
+}
+
+    @media (max-width: 37rem) {
+        .banner2{
+        padding-top: 5rem;
+        }
+    }
