@@ -60,7 +60,7 @@ const LookingForTraining2 = ({ clsmodal }) => {
     <div className="banner2">
       <div
         style={{ background: "#fff" }}
-        className="container comment-form mb-5 p-5 pt-5 w-50 rounded"
+        className="container comment-form mb-5 p-5 pt-5 w-lg-50 rounded"
       >
         <h3>Looking for Training?</h3>
         <h5 className="mb-5">Please share your details, we will contact you</h5>

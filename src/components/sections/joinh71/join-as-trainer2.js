@@ -58,7 +58,7 @@ const JoinAsTrainer2 = ({ clsmodal }) => {
 
   return (
     <div className="banner2">
-      <div style={{background:"#fff"}} className="container comment-form mb-5 p-5 pt-5 w-50 rounded">
+      <div style={{background:"#fff"}} className="container comment-form mb-5 p-5 pt-5 w-lg-50 rounded">
         <h3>Become a trainer</h3>
         <h5 className="mb-5">Please share your details we will contact you</h5>
         <h5>
