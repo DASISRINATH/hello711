@@ -18,6 +18,8 @@ const TestSCRF = React.lazy(() => import("./TestCSRF"));
 
 // Home Pages
 const Hometwo = React.lazy(() => import("./components/pages/Hometwo"));
+
+const HomeTwonew = React.lazy(()=>import('./components/pages/HomeTwonew'))
 // Blog
 // const Bloggrid = React.lazy(() => import("./components/pages/Bloggrid"));
 const Bloglist = React.lazy(() => import("./components/pages/Bloglist"));
@@ -163,6 +165,8 @@ function App() {
           <Route exact path="/chat" component={Chat} />
 
           <Route exact path="/" component={Hometwo} />
+          <Route exact path="/home2" component={HomeTwonew} />
+
           <Route exact path="/Mobileinputform" component={Mobileinputform} />
           {/* <Route exact path="/Modal" component={Modalbox} /> */}
           {/* Blog */}
