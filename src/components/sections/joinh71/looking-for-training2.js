@@ -1,12 +1,17 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import h71banner from "../../../assets/img/demo/h71-banner.png";
 import "./JoinAsTrainer.css";
 
 const LookingForTraining2 = ({ clsmodal }) => {
   // const FormStepOne = ({postdata,setpostdata,clsmodal})=> {
 
-  const [postdata, setpostdata] = useState("");
+    // app_list_id:1
+    // registration_name:Rohan
+    // registration_email:rohan921310@gmail.com
+    // registration_description:NONONONO
+
+  const [postdata, setpostdata] = useState({app_list_id:201291});
 
   const [formval, setformval] = useState("");
   const [formpost, setformpost] = useState({});
@@ -24,9 +29,9 @@ const LookingForTraining2 = ({ clsmodal }) => {
   const handleClick = (e) => {
     e.preventDefault();
     //console.log(postdata)
-    postdata.contact_name === ""
+    postdata.registration_name === ""
       ? setformval("warning")
-      : postdata.contact_email === ""
+      : postdata.registration_email === ""
       ? setformval("warning")
       : postdata.contact_phone === ""
       ? setformval("warning")
@@ -34,24 +39,28 @@ const LookingForTraining2 = ({ clsmodal }) => {
       ? setformval("warning")
       : postdata.contact_experience === ""
       ? setformval("warning")
-      : postdata.contact_message === ""
+      : postdata.registration_description === ""
       ? setformval("warning")
       : sendData();
   };
 
+  // `${process.env.REACT_APP_API_URL}contacts/add/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/`,
+
+  // https://api.web.indm.dev.risee.in/index.php/rest/registrations/add/api_key/1fWwZNrzUiOW2pWEffgy3fXS1R7khL/
+
   const sendData = async () => {
     await axios
       .post(
-        `${process.env.REACT_APP_API_URL}contacts/add/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/`,
+        `${process.env.REACT_APP_API_URL}registrations/add/api_key/${process.env.REACT_APP_API_SECURITY_KEY}/`,
         postdata
       )
       .then((res) => setformpost(res.data))
       .catch((err) => console.log(err));
     setpostdata({
-      contact_name: "",
+      registration_name: "",
       contact_phone: "",
-      contact_email: "",
-      contact_message: "",
+      registration_email: "",
+      registration_description: "",
     });
     setformval("yes");
   };
@@ -77,8 +86,8 @@ const LookingForTraining2 = ({ clsmodal }) => {
                 type="text"
                 className="form-control"
                 placeholder="Full Name"
-                name="contact_name"
-                value={postdata.contact_name}
+                name="registration_name"
+                value={postdata.registration_name}
                 onChange={handleChange}
                 required
               />
@@ -89,8 +98,8 @@ const LookingForTraining2 = ({ clsmodal }) => {
                 type="email"
                 className="form-control"
                 placeholder="Email Address"
-                name="contact_email"
-                value={postdata.contact_email}
+                name="registration_email"
+                value={postdata.registration_email}
                 onChange={handleChange}
                 required
               />
@@ -125,8 +134,8 @@ const LookingForTraining2 = ({ clsmodal }) => {
               <textarea
                 className="form-control"
                 placeholder="Type here..."
-                name="contact_message"
-                value={postdata.contact_message}
+                name="registration_description"
+                value={postdata.registration_description}
                 onChange={handleChange}
                 rows={4}
                 required
