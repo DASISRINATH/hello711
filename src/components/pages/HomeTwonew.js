@@ -9,7 +9,7 @@ import InfoSection from '../sections/hometwo/InfoSection';
 import Counter from '../sections/hometwo/Counter';
 import Services from './Servicesdetails';
 import TutorListings from './TutorListings';
-import HomeBanner2 from '../sections/hometwo/HomeBanner2';
+import HomeBannerNew from '../sections/hometwo/HomeBannerNew';
 import Clients2 from '../sections/hometwo/Clients2';
 
 const HomeTwonew = () => {
@@ -23,7 +23,8 @@ const HomeTwonew = () => {
                     />
                 </MetaTags>
                 <Header/>
-                <HomeBanner2/>
+                <HomeBannerNew/>
+                {/* <InfoSection/> */}
                 <Footer/>
     </Fragment>
   )

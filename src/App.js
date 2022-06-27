@@ -5,11 +5,13 @@ import Mobileinputform from "./components/sections/modal/Mobileinputform";
 import PrivateRoute from "./PrivateRouter";
 import { UserContext } from "./context/LoginContext";
 import mixpanel from 'mixpanel-browser';
+// import HomeTwonew from "./components/pages/HomeTwonew";
 import TutorTemp from "./components/pages/TutorTemp";
 mixpanel.init('2375e473bcb2d154efecd4607032f614', {debug: true}); 
 mixpanel.track('Sign up');
 
-// const Hometwo from "./components/pages/Hometwo";
+
+
 // const Preloader from "./components/layouts/Preloader";
 
 // Preloader
@@ -18,8 +20,8 @@ const TestSCRF = React.lazy(() => import("./TestCSRF"));
 
 // Home Pages
 const Hometwo = React.lazy(() => import("./components/pages/Hometwo"));
-
-const HomeTwonew = React.lazy(()=>import('./components/pages/HomeTwonew'))
+const HomeTwonew = React.lazy(() => import("./components/pages/HomeTwonew"));
+// const Hometesting = React.lazy(()=>import('./components/pages/Hometesting'))
 // Blog
 // const Bloggrid = React.lazy(() => import("./components/pages/Bloggrid"));
 const Bloglist = React.lazy(() => import("./components/pages/Bloglist"));
@@ -165,7 +167,8 @@ function App() {
           <Route exact path="/chat" component={Chat} />
 
           <Route exact path="/" component={Hometwo} />
-          <Route exact path="/home2" component={HomeTwonew} />
+          <Route exact path="/How-it-works" component={HomeTwonew} />
+
 
           <Route exact path="/Mobileinputform" component={Mobileinputform} />
           {/* <Route exact path="/Modal" component={Modalbox} /> */}

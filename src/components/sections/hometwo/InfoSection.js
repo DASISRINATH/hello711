@@ -21,14 +21,19 @@ class InfoSection extends Component {
                                 <p className="subtitle">
                                 If you're looking for Foreign language courses online, then Hello71 is the best choice.
                                 </p>
-                                <Link to="/" className="btn-custom">Browse Trainers</Link>
+                                {/* <Link to="/" className="btn-custom">Browse Trainers</Link> */}
+                                <div className="text-center">
+                                   <h2>hello</h2>
+
+                                </div>
                             </div>
                         </div>
-                       
+                        
                       
                     </div>
                 </div>
             </div>
+       
         );
     }
 }
