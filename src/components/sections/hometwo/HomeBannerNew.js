@@ -12,7 +12,7 @@ export const HomeBannerNew = () => {
     <h3>We made it in easy way</h3>
     <p className="text-subtitle">
 accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptum deleniti atque correupti quoes et
-<p>quas molestias excepturi sint occaecati cupiditate non provident</p>
+<p>quas molestias excepturi sint occaecati cupidittate non provident</p>
     </p>
     <div className="container">
   <div className="row">
