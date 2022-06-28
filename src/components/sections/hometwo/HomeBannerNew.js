@@ -17,11 +17,14 @@ accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptum 
     <div className="container">
   <div className="row">
     <div className="col-sm">
-      <div class="card">
-  <img src={images}
-  alt="card image cap"
-  height= "600px"
-  />
+      <div class="card mb-4">
+      <div style={{ height: "10rem" }}>
+                    <img
+                      src={images}
+                      alt="card image cap"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div>
   <div class="card-body">
   <button class="button-1" role="button">STEP 01</button>
     <h5 class="card-title">Post a tuition job</h5>
@@ -31,11 +34,14 @@ voluptatum loramkes anuten.</p>
   </div>
 </div></div>
     <div className="col-sm">
-      <div class="card">
-  <img src={images}
-  alt="card image cap"
-  height= "600px"
-  />
+      <div class="card mb-4">
+      <div style={{ height: "10rem" }}>
+                    <img
+                      src={images}
+                      alt="card image cap"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div>
   <div class="card-body">
   <button class="button-2" role="button">STEP 02</button>
     <h5 class="card-title">Hire your best match</h5>
@@ -45,11 +51,14 @@ voluptatum loramkes anuten.</p>
   </div>
 </div></div>
 <div className="col-sm">
-      <div class="card">
-  <img src={images}
-  alt="card image cap"
-  height= "600px"
-  />
+      <div class="card mb-4">
+      <div style={{ height: "10rem" }}>
+                    <img
+                      src={images}
+                      alt="card image cap"
+                      style={{ height: "100%", width: "100%" }}
+                    />
+                  </div>
   <div class="card-body">
   <button class="button-3" role="button">STEP 03</button>
     <h5 class="card-title">Get it done on time</h5>
@@ -113,7 +122,7 @@ blanditiis praesentium voluptatum loramkes anuten.
     accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
 corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
     </p>
-    <div>
+    <div class="buttoonred">
     <button class="button-4" role="button">Start as student</button>
     <div class="space"></div>                                         
     <button class="button-5" role="button">Join as Instructor <a href="url">it's free!</a></button>

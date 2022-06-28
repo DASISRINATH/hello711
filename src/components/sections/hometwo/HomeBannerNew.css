@@ -143,3 +143,28 @@ a {
   padding: 15px;
 }
 
+@media(min-width:100px){
+}
+@media(min-width:576px){
+}
+@media(min-width:768px){
+}
+@media(min-width:9920px){
+}
+@media(min-width:992px){
+}
+@media(min-width:1200px){
+  body{
+    background: hwb(258 0% 0%);
+  }
+}
+@media(min-width:1400px){
+  body{
+    background: #0499b4;
+  }
+}
+
+.buttoonred{
+  display: flex;
+  justify-content: center;
+  }
