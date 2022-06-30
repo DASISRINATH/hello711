@@ -40,7 +40,7 @@ class Contact extends Component {
     <p class="card-text" style={{lineHeight:1.5}}>
                       Having a quary or just wnat to know if digital Scholar is the
                       right institute for you? Fell free to to ping us.Happy to help
-                      and ensure you become a digital marketing master.
+                      and ensure you become a digital marketing master..
                     </p>
   </div>
 </div></div>
