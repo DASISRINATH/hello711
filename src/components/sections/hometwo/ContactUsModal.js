@@ -112,7 +112,6 @@ const ContactUsModal = () => {
         name='contact_message'
         onChange={handleOnChange}
         value={postdata.contact_message}
-        required
         ></textarea>
 
         <button onClick={handleClick} type="submit" class="btn-custom">Submit</button>

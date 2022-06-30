@@ -153,15 +153,11 @@ a {
 @media(min-width:992px){
 }
 @media(min-width:1200px){
-  body{
-    background: hwb(258 0% 0%);
-  }
 }
 @media(min-width:1400px){
-  body{
-    background: #0499b4;
+
   }
-}
+
 
 .buttoonred{
   display: flex;

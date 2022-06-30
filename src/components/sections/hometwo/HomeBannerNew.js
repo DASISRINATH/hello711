@@ -12,7 +12,7 @@ export const HomeBannerNew = () => {
     <h3>We made it in easy way</h3>
     <p className="text-subtitle">
 accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptum deleniti atque correupti quoes et
-<p>quas molestias excepturi sint occaecati cupidittate non provident</p>
+<p>quas molestias excepturi sint occaecati cupiditate non provident</p>
     </p>
     <div className="container">
   <div className="row">
@@ -28,9 +28,10 @@ accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptum 
   <div class="card-body">
   <button class="button-1" role="button">STEP 01</button>
     <h5 class="card-title">Post a tuition job</h5>
-    <p class="card-text">Aeccusamus et iusto odiomae dignissimos 
-ducimus quistames blanditiis praesentium 
-voluptatum loramkes anuten.</p>
+    <p class="card-text" style={{lineHeight:1.5}}>
+                      Aeccusamus et iusto odiomae dignissimos ducimus quistames
+                      blanditiis praesentium voluptatum loramkes anuten.
+                    </p>
   </div>
 </div></div>
     <div className="col-sm">
@@ -45,9 +46,10 @@ voluptatum loramkes anuten.</p>
   <div class="card-body">
   <button class="button-2" role="button">STEP 02</button>
     <h5 class="card-title">Hire your best match</h5>
-    <p class="card-text">Aeccusamus et iusto odiomae dignissimos 
-ducimus quistames blanditiis praesentium 
-voluptatum loramkes anuten.</p>
+    <p class="card-text" style={{lineHeight:1.5}}>
+                      Aeccusamus et iusto odiomae dignissimos ducimus quistames
+                      blanditiis praesentium voluptatum loramkes anuten.
+                    </p>
   </div>
 </div></div>
 <div className="col-sm">
@@ -62,9 +64,10 @@ voluptatum loramkes anuten.</p>
   <div class="card-body">
   <button class="button-3" role="button">STEP 03</button>
     <h5 class="card-title">Get it done on time</h5>
-    <p class="card-text">Aeccusamus et iusto odiomae dignissimos 
-ducimus quistames blanditiis praesentium 
-voluptatum loramkes anuten</p>
+    <p class="card-text" style={{lineHeight:1.5}}>
+                      Aeccusamus et iusto odiomae dignissimos ducimus quistames
+                      blanditiis praesentium voluptatum loramkes anuten.
+                    </p>
   </div>
 </div></div>
   </div>

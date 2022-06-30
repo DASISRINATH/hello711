@@ -1,0 +1,44 @@
+.cover{
+    background-color: hsla(180, 9%, 96%, 0.37);
+    padding-top: 20px;
+}
+.card-text{
+    text-align:justify;  /* For Edge */
+  text-align-last:center;
+  font-weight: 500;
+ margin-left: -20px;
+ margin-right: -20px;
+ text-justify: auto;
+}
+.card-title{
+    font-size: 150%;;
+    color: #05175c;
+}
+.card{
+
+    border-radius: 0%;
+    padding: 10px;
+   
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+h2::first-letter {
+    font-size: 150%;
+    color: hsl(57, 100%, 50%);
+  }
+
+  @media(min-width:100px){
+}
+@media(min-width:576px){
+}
+@media(min-width:768px){
+}
+@media(min-width:9920px){
+}
+@media(min-width:992px){
+}
+@media(min-width:1200px){
+}
+@media(min-width:1400px){
+
+  }
