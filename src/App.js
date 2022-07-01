@@ -1,8 +1,10 @@
 import React, { Suspense, useContext, useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ContactUsModal from "./components/sections/hometwo/ContactUsModal";
+import referal from "./components/pages/referal";
 import Mobileinputform from "./components/sections/modal/Mobileinputform";
 import PrivateRoute from "./PrivateRouter";
+
 import { UserContext } from "./context/LoginContext";
 import mixpanel from 'mixpanel-browser';
 // import HomeTwonew from "./components/pages/HomeTwonew";
@@ -145,6 +147,7 @@ function App() {
           <Route exact path="/rent" component={Rentmap} />
           <Route exact path="/projects" component={Projects} />
 
+
           <Route exact path="/properties/:slug" component={Listingitem} />
           <Route exact path="/rent/:slug" component={Listingitem} />
           <Route exact path="/projects/:slug" component={Listingitem} />
@@ -168,6 +171,7 @@ function App() {
 
           <Route exact path="/" component={Hometwo} />
           <Route exact path="/How-it-works" component={HomeTwonew} />
+          <Route exact path="/refer-friend" component={referal} />
 
 
           <Route exact path="/Mobileinputform" component={Mobileinputform} />

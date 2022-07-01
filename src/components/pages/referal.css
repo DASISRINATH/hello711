@@ -1,0 +1,149 @@
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-right: 100px; /*Optional*/
+    border-spacing:center;
+    font-weight: 500;
+}
+.Column {
+    display: table-cell;
+}
+.Row-1 {
+    display: table;
+    width: 80%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-right: 100px; /*Optional*/
+    border-spacing:center;
+    font-weight: 500;
+    margin-left: 5cm;
+}
+.Column-1 {
+    display: table-cell;
+    text-align: justify;
+    margin-left: 1cm;
+}
+
+.Column-2 {
+    display: table-cell;
+    text-align: justify;
+    margin-right: 1cm;
+}
+
+    .button-1 {
+        appearance: none;
+        background-color: #16c5cb;
+        border: 1px solid rgba(27, 31, 35, .15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 34, 35, 0.1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 8px 50px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      .image {
+        position: relative;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.051);
+      }
+      
+      /* Bottom left text */
+      .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
+
+      .text{
+        text-align: justify;
+        opacity: "100%";
+        margin-left: 3cm;
+      }
+      
+      /* Top left text */
+      .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+      }
+      
+      /* Top right text */
+      .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+      }
+      
+      /* Bottom right text */
+      .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+      }
+      
+      /* Centered text */
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .cover{
+        padding-top: 1cm;
+        background-color: #daeef1;
+        padding-bottom: 1cm;
+      }
+
+     .image-1{
+        margin-left:1cm;
+     }
+
+     .row {
+        display: table;
+        width: 100%; /*Optional*/
+        table-layout: fixed; /*Optional*/
+        border-right: 100px; /*Optional*/
+        border-spacing:center;
+        font-weight: 500;
+     }
+
+     .container-3{
+        background-color: black;
+        color: #fff;
+        height: 2.5cm;
+        text-align: center;
+     }
+     .srinath{
+        padding:0 3rem;
+        border-left: 3px solid #9b9797 ;
+     }
+
+
+    @media(min-width:100px){
+    }
+    @media(min-width:576px){
+    }
+    @media(min-width:768px){
+    }
+    @media(min-width:9920px){
+    }
+    @media(min-width:992px){
+    }
+    @media(min-width:1200px){
+    }
+    @media(min-width:1400px){
+    
+      }
